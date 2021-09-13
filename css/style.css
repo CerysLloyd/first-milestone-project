@@ -31,6 +31,18 @@ body {
 
 }
 
+/* ------------------------------------------------- Nav Bar ----*/
+
+.navbar-logo {
+    float:left;
+    font-weight: bolder;
+    font-size: 200%;
+    color: #f72585;
+}
+
+
+
+
 /* ------------------------------------------------- jumbotron ----*/
 
 .jumbotron-header {
@@ -51,7 +63,7 @@ body {
 }
 
 .jumbotron small {
-    font-size: 60%;
+    font-size: 70%;
     font-style: italic;
     color: #fff;
 }
@@ -67,7 +79,26 @@ body {
         width: 100%;
         background-color: rgba(0, 0, 0, 0.5);
     }
-.free {
-    color: #fff;
+
+/* ------------------------------------------------- buttons ----*/
+
+.btn--cta {
     font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--pink {
+    color: #fff;
+    background-color: #f72585;
+    border-color:#f72585 ;
+}
+
+.btn--pink:hover,
+.btn--pink:active,
+.btn--pink:focus,
+.btn--pink:active:focus {
+    background-color: #d20a64;
+    border-color: #d20a64;
+    color: white;
 }
