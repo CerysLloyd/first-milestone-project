@@ -13,10 +13,10 @@
 <body>
 <!-- Nav Bar-->    
 <!-- credit: - code for nav from https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/a4b90d17e5c94220a0f83f00ce7fa606/2aca2c94a518427495cc1b4bc641ccbf/?child=first edited to fit project-->
-<nav class="navbar navbar-light navbar-expand-sm bg-light ">
+<nav class="navbar navbar-expand-sm bg-light ">
     
  <!-- credit: - code for nav from https://getbootstrap.com/docs/5.1/components/navbar/ edited to fit project-->   
- <nav class="navbar navbar-light bg-light">
+ <nav class="navbar bg-light">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html">Women Only Workout</a>
     </div>
@@ -27,7 +27,7 @@
     <span class="navbar-toggler-icon"></span></button>
 
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav mr-auto">
+        <ul class="navbar-nav nav justify-content-end">
                     <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
                     <li class="active nav-item mr-2"><a class="nav-link" href="classes.html">Classes</a></li>
                     <li class="active nav-item mr-2"><a class="nav-link" href="contact.html">Contact</a></li>
@@ -163,7 +163,23 @@
                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                      <p>Modal body text goes here.</p>
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Password</label>
+                                <input type="password" class="form-control" id="password" placeholder="Password">
+                            </div>
+                            <div class="form-group">
+                                <label for="repeatPassword">Repeat Password</label>
+                                <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password">
+                            </div>
+                            <button type="submit" class="btn btn-success">Submit</button>
+                        </form>
+                     
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
