@@ -35,32 +35,6 @@ body {
 
 
 
-.navbar {
-    font-family: Lato, sans-serif;
-    margin-bottom: 0;
-    width: 100%;
-    background-color: inherit;
-    border: 0;
-
-}
-
-navbar navbar-logo {
-    color: pink;
-}
-}
-.navbar .navbar-toggler {
-    border: 0;
-
-}
-
-.navbar-nav {
-    font-family: Lato, sans-serif;
-    font-weight: bold;
-}
-
-.navbar .navbar-nav a {
-    font-weight: bold;
-}
 
 
    
