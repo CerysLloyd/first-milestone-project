@@ -6,12 +6,12 @@ body {
       }   
 
 
-
+/* code taken from https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/a4b90d17e5c94220a0f83f00ce7fa606/4b3b1b062b01424997c8fd052e177b8e/?child=first*/
 .callout-container {
         height: 600px;
         width: 100%;
     
-        background: url('/assets/images/ladies-header.jpg') no-repeat center center fixed;
+        background: url('../images/ladies-header.jpg') no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -33,30 +33,39 @@ body {
 
 /* ------------------------------------------------- Nav Bar ----*/
 
-    .navbar-default {
-    background-color: #fff;
-    border-color: #fff;
-    }
-    .brand-name {
-    font-family: 'Lato', serif;
-    font-size: 47px;
+
+
+.navbar {
+    font-family: Lato, sans-serif;
+    margin-bottom: 0;
+    width: 100%;
+    background-color: inherit;
+    border: 0;
+
+}
+
+navbar navbar-logo {
+    color: pink;
+}
+}
+.navbar .navbar-toggler {
+    border: 0;
+
+}
+
+.navbar-nav {
+    font-family: Lato, sans-serif;
     font-weight: bold;
-    color: #444;
-    text-decoration: none;
-    }
-        
-    .navbar-custom {
-    font-size: 20px;
-    background-color: #FFF;
-    
-    }
-    
-    .img-responsive2 {
-        height:200px;
-        width: 200px;
+}
 
-    }
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
 
+
+   
+    
+    
 
 
 
@@ -66,6 +75,7 @@ body {
     color: #fff;
     font-weight: bold;
     margin-bottom: 30px;
+    margin-top:200px;
 }
 
 .jumbotron .lead {
