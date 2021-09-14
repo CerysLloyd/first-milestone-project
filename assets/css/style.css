@@ -46,7 +46,7 @@ body {
     text-align: center;
     font-family: Lato, sans-serif;
     color:#401d35;
-    font-size: 100px;
+    font-size: 80px;
     
 
 }
@@ -56,6 +56,15 @@ body {
     text-transform: uppercase;
     
 
+}
+
+.img-thumbnail {
+    padding: .25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+    width: 460px;
+    height: 300px;
 }
 
 /* ------------------------------------------------- Nav Bar ----*/
