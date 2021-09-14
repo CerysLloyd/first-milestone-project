@@ -33,12 +33,29 @@ body {
 
 /* ------------------------------------------------- Nav Bar ----*/
 
-.navbar-logo {
-    float:left;
-    font-weight: bolder;
-    font-size: 200%;
-    color: #f72585;
-}
+    .navbar-default {
+    background-color: #fff;
+    border-color: #fff;
+    }
+    .brand-name {
+    font-family: 'Lato', serif;
+    font-size: 47px;
+    font-weight: bold;
+    color: #444;
+    text-decoration: none;
+    }
+        
+    .navbar-custom {
+    font-size: 20px;
+    background-color: #FFF;
+    
+    }
+    
+    .img-responsive2 {
+        height:200px;
+        width: 200px;
+
+    }
 
 
 
