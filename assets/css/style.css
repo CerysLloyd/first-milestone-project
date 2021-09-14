@@ -23,6 +23,24 @@ body {
     
         position: relative;
     }
+
+    /* ------------------------------------------------- content containers ----*/
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+
+}
+
+.container-wrapper {
+
+}
+
+.container-wrapper--purple {
+    background-color: #401d35;
+    font-color: white;
+}
+
 .reasons-container {
 
 }
@@ -115,3 +133,4 @@ body {
     border-color: #d20a64;
     color: white;
 }
+

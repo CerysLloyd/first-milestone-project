@@ -48,7 +48,10 @@
                               <h1 class="jumbotron-header">The Gym for Women, Run By Women!</h1>
                                     <p class="lead">Start your W.O.W journey today! </p>
                                     <p class="lead-two">3 Months Free!*</p>
-                                        <button class="btn btn-lg btn--cta btn--pink" data-toggle="modal" data-target="#signUpModal">Sign Up Now!</button>
+                                    <button type="button" class="btn btn-lg btn--cta btn--pink" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        Sign Up Now!
+                                      </button>
+                                       
                                     <p class="text-muted"><small>* 3 months free when you sign up for a 12 month membership</small></p>
                         </section>
                     </div> 
@@ -59,7 +62,8 @@
             <hr>
  <!--Credit:- code for Reasons to Join us from https://replit.com/@ceryslloyd/Love-Running-Project#index.html edited to fit project   --> 
             <!-- Reasons to join us -->
-            <div class="container reasons-container"> 
+         <div class="container-wrapper">
+            <div class="container reasons-container content-container"> 
                 <div class="row">
                     <div class="col-12 my-5">
                         <h2 id="welcome">Reasons To Join Us?</h2>
@@ -113,12 +117,13 @@
                             </div>
                       </div>
                 </div>
-              
+        </div>  
             <!-- /.Reasons to join us -->
 
             <!-- Testimonials -->
  <!--Credit:- code for testimonials from https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/a4b90d17e5c94220a0f83f00ce7fa606/7c0e25d1061e47cdae9c492d623bfc65/?child=first edited to fit project   --> 
-            <div class="container testimonials-container">
+            <div class="container-wrapper container-wrapper-purple">
+                <div class="container testimonials-container content-container">
                     <div class="row">
                         <div class="col-12 col-md-6 my-5">
                             <h2 class="text-uppercase">Testimonials:</h2>
@@ -150,36 +155,20 @@
                                 </div>                 
                             </div>
                         </div>     
-                       
+            </div>          
             <!-- /.Testimonials -->
              
  <!--Credit:- code for Modal from https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/a4b90d17e5c94220a0f83f00ce7fa606/7c0e25d1061e47cdae9c492d623bfc65/?child=first  edited to fit project   --> 
             <!-- /.Modal -->
-            <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
-                <div class="modal-dialog" role="document">
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title">Modal title</h5>
+                      <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <form>
-                            <div class="form-group">
-                                <label for="exampleInputEmail1">Email address</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                            </div>
-                            <div class="form-group">
-                                <label for="password">Password</label>
-                                <input type="password" class="form-control" id="password" placeholder="Password">
-                            </div>
-                            <div class="form-group">
-                                <label for="repeatPassword">Repeat Password</label>
-                                <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password">
-                            </div>
-                            <button type="submit" class="btn btn-success">Submit</button>
-                        </form>
-                     
+                      ...
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
