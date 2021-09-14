@@ -48,7 +48,7 @@
                               <h1 class="jumbotron-header">The Gym for Women, Run By Women!</h1>
                                     <p class="lead">Start your W.O.W journey today! </p>
                                     <p class="lead-two">3 Months Free!*</p>
-                                        <button class="btn btn-lg btn--cta  btn--pink">Sign Up Now!</button>
+                                        <button class="btn btn-lg btn--cta btn--pink" data-toggle="modal" data-target="#signUpModal">Sign Up Now!</button>
                                     <p class="text-muted"><small>* 3 months free when you sign up for a 12 month membership</small></p>
                         </section>
                     </div> 
@@ -152,8 +152,29 @@
                         </div>     
                        
             <!-- /.Testimonials -->
+             
+ <!--Credit:- code for Modal from https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/a4b90d17e5c94220a0f83f00ce7fa606/7c0e25d1061e47cdae9c492d623bfc65/?child=first  edited to fit project   --> 
+            <!-- /.Modal -->
+            <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Modal title</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <p>Modal body text goes here.</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
               
         
+            <!-- /.modal -->
        
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
