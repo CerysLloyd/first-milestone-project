@@ -45,7 +45,7 @@ body {
 #welcome {
     text-align: center;
     font-family: Lato, sans-serif;
-    color: #401d35;
+    color:#401d35;
     font-size: 100px;
     
 
@@ -119,7 +119,7 @@ body {
 .navbar-brand {
     font-family: lato, sans-serif;
     font-weight: 900;
-    color: purple;
+    color: #401d35;
 }
 
 .navbar-brand:hover {
@@ -149,3 +149,15 @@ body {
     color: white;
 }
 
+/* ------------------------------------------------- modal ----*/
+.modal-title {
+    font-family: Lato, sans-serif;
+    font-size: 50px;
+    color: #401d35;    
+}
+
+.form-check-label {
+    font-family: Lato, sans-serif;
+    font-size: 20px;
+    color: #401d35;
+}
