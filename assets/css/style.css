@@ -120,12 +120,19 @@ body {
     font-family: lato, sans-serif;
     font-weight: 900;
     color: #401d35;
+    
 }
 
 .navbar-brand:hover {
     color:  #f72585;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 
 }
+
+
 /* ------------------------------------------------- buttons ----*/
 
 .btn--cta {
@@ -147,7 +154,49 @@ body {
     background-color: #d20a64;
     border-color: #d20a64;
     color: white;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
+
+/* ------------------------------------------------- Footer ----*/
+footer {
+    background-color: #310b25;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12PX 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #401d35;
+    background: #fff;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #f72585;
+}
+
+#footer-details {
+    margin-top: 20px;
+
+}
+
 
 /* ------------------------------------------------- modal ----*/
 .modal-title {
