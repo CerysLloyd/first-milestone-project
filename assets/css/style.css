@@ -38,14 +38,18 @@ body {
 
 .container-wrapper--purple {
     background-color: #401d35;
-    font-color: white;
+    color:#fff;
+    
 }
 
 .reasons-container {
 
 }
 
-.testimonials-container {
+.testimonials-h2 {
+    color:white;
+    text-transform: uppercase;
+    
 
 }
 
