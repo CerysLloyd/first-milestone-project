@@ -192,6 +192,11 @@ body {
     border-color:#f72585 ;
 }
 
+.btn--class {
+    margin-left: 0px;
+
+}
+
 .btn--pink:hover,
 .btn--pink:active,
 .btn--pink:focus,
@@ -279,6 +284,5 @@ margin-right: 25%;
     font-weight: bold;
     border-radius: 23px;
     margin-left: 29%;
-}
 }
 
