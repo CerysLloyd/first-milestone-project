@@ -5,6 +5,16 @@ body {
         color: #777777;
       }   
 
+      #welcome {
+        text-align: center;
+        font-family: Lato, sans-serif;
+        color:#401d35;
+        font-size: 90px;
+    }
+
+    #contact-us {
+        margin-bottom: 30%;
+    }
 
 /* code taken from https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/a4b90d17e5c94220a0f83f00ce7fa606/4b3b1b062b01424997c8fd052e177b8e/?child=first*/
 .callout-container {
@@ -45,15 +55,9 @@ body {
 .sign-up-container {
     padding-top: 0px;
 }
-}
 
-#welcome {
-    text-align: center;
-    font-family: Lato, sans-serif;
-    color:#401d35;
-    font-size: 80px;
+.contact-container {
     
-
 }
 
 .testimonials-h2 {
@@ -164,6 +168,13 @@ body {
         width: 100%;
         background-color: rgba(0, 0, 0, 0.5);
     }
+
+/* ------------------------------------------------- Testimonials ----*/
+
+.rounded-circle {
+    margin-left: 25%;
+    margin-bottom: 5%;
+}
 
 
 /* ------------------------------------------------- buttons ----*/

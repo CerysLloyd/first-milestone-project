@@ -32,7 +32,7 @@
 
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav nav justify-content-end">
-                            <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
+                            <li class="active nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
                             <li class="active nav-item mr-2"><a class="nav-link" href="classes.html">Classes</a></li>
                             <li class="active nav-item mr-2"><a class="nav-link" href="contact.html">Contact</a></li>
                             <li class="active nav-item mr-2"><a class="nav-link btn btn--cta btn--pink" href="sign-up.html">Sign In / Sign Up</a></li>
@@ -41,27 +41,72 @@
                 </div>
         </nav>
         <!-- Nav Bar-->
-       
-       
-        <section>
-            <form>
-                <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">Email address</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label">Password</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1">
-                </div>
-                <div class="mb-3 form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-              </form>
-        </section>
 
+ <!-- Contact Us -->
+            <!--Credit:- code for testimonials from https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/a4b90d17e5c94220a0f83f00ce7fa606/7c0e25d1061e47cdae9c492d623bfc65/?child=first edited to fit project   --> 
+            <div class="container-wrapper">
+                <div class="container contact-container content-container"> 
+                    <div class="row">
+                        <div class="col-12 my-3">
+                            <h2 id="welcome">Contact Us</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-md-4 float-left">
+                            <div class="blockquote">
+                                <div class="media"> 
+                                    <a><i class="fa fa-phone" aria-hidden="true"></i> Call Us</a>
+                                    <hr>
+                                    <p>
+                                        555-3285952
+                                    </p>
+                                </div>
+                            </div>    
+                        </div>   
+                            <div class="col-12 col-md-8 float-right">
+                                <div class="blockquote">
+                                    <div class="media"> 
+                                        <a><i class="fa fa-home" aria-hidden="true"></i> Address</a>
+                                        <hr>
+                                        <p> 4, Commercial Street, Kenfig Hill, CF336DL </p>
+                                        
+                                    </div>       
+                                </div>
+                            </div>
+                         <div class="row">
+                        <div class="col-12 col-md-4 float-left">
+                            <div class="blockquote">
+                                <div class="media"> 
+                                    <a><i class="fa fa-envelope" aria-hidden="true"></i> Email Us</a>
+                                    <hr>
+                                    <p>
+                                        support@womenonlyworkouts.com
+                                    </p>
+                                </div>
+                            </div>    
+                        </div>   
+                            <div class="col-12 col-md-8 float-right">
+                                <div class="blockquote">
+                                    <div class="media"> 
+                                        <a><i class="fa fa-clock" aria-hidden="true"></i> Opening Hours</a>
+                                        <hr>
+                                        <p> Monday - Friday: 6am - 11pm | Saturday: 6am - 9pm | Sunday: 10am - 5pm</p>
+                                                                                
+                                    </div>       
+                            </div>
+                    </div>
+ 
+        <!-- map -->
+                  <!-- credit: code for the insertion of a map from  https://blog.duda.co/responsive-google-maps-for-your-website edited to fit project-->
+
+                  <div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2481.9141312143433!2d-3.680686883611361!3d51.53313477963932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486e6f482f6c14e9%3A0x1d6f01551dcb61f4!2s4%20Commercial%20St%2C%20Kenfig%20Hill%2C%20Bridgend%20CF33%206DH!5e0!3m2!1sen!2suk!4v1631707601060!5m2!1sen!2suk" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+        <!-- map -->
+
+
+       
+        
       
 
  <!-- Footer -->
@@ -127,7 +172,11 @@
             </div>
         </footer>
         <!-- Footer -->
-
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"></script>
+        <script src="custom.js"></script>
+ 
                     
     </body>
 </html>

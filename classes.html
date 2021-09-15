@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
         <head>
@@ -21,194 +22,189 @@
         <!-- credit: - code for nav from https://getbootstrap.com/docs/5.1/components/navbar/ edited to fit project-->   
         <nav class="navbar">
             <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">Women Only Workouts</a>
+            <a class="navbar-brand" href="index.html">Women Only Workout</a>
             </div>
         </nav>
 
         <!-- credit: - code for nav from https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/a4b90d17e5c94220a0f83f00ce7fa606/7c0e25d1061e47cdae9c492d623bfc65/?child=first edited to fit project-->   
-       
-<!-- Nav Bar-->
-        <div class="card mb-3" style="max-width: 540px;">
-            <div class="row no-gutters">
-                <div class="col-md-6">
-                <img src="/assets/images/strength.jpg " class="img-fluid">
-            
-                </div>
-                <div class="col-md-6">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">It's a broader card with text below as a natural lead-in to extra content. This content is a little longer.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
-                </div>
-            </div>
-            </div>
-<!-- Nav Bar-->
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span></button>
 
-
-<!-- needs to be changed to show the classes available and I want them to be central to the window 
-    need to find a way of making them responsive for mobiles, need to make all images the same size-->
-<div class="container-wrapper">
-    <div class="container reasons-container content-container"> 
-        <div class="row">
-            <div class="col-12 my-3">
-                <h2 id="welcome">Reasons To Join Us?</h2>
-            </div>
-        </div>
-    </div>
-
-    
-    <div class="row">
-        <div class="col-12 col-md-4 float-left">
-            <div class="blockquote">
-                <div class="media"> 
-                    <img src="assets/images/confidence.jpg" alt="confident woman in the gym" class="img-thumbnail">
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav nav justify-content-end">
+                            <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
+                            <li class="active nav-item mr-2"><a class="nav-link" href="classes.html">Classes</a></li>
+                            <li class="active nav-item mr-2"><a class="nav-link" href="contact.html">Contact</a></li>
+                            <li class="active nav-item mr-2"><a class="nav-link btn btn--cta btn--pink" href="sign-up.html">Sign In / Sign Up</a></li>
+                            
+                        </ul>
                 </div>
+        </nav>
+        <!-- Nav Bar-->
+         <!--I want them to be central to the window need to find a way of making them responsive for mobiles,
+                need to make all images the same size
+                need to find out how to have 2 images side by side with writin above, and writing below-->
+                <div class="container-wrapper">
+                    <div class="container reasons-container content-container"> 
+                        <div class="row">
+                            <div class="col-12 my-3">
+                                <h2 id="welcome">Reasons To Join Us?</h2>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-12 col-md-4 float-left">
+                            <div class="blockquote">
+                                <div class="media"> 
+                                    <img src="assets/images/confidence.jpg" alt="confident woman in the gym" class="img-thumbnail">
+                                </div>
+                            </div>    
+                        </div>   
+                            <div class="col-12 col-md-8 float-right">
+                                <div class="blockquote">
+                                    <div class="media"> 
+                                        <h2>Confidence</h2>
+                                        <hr>
+                                        <p>
+                                            Build your confidence in a safe environment, 
+                                            surrounded by supportive, helpful and like-minded women.
+                                        </p>
+                                    </div>       
+                            </div>
+                    </div>
+                            
+                            
+                    <div class="row">
+                        <div class="col-12 col-md-4 float-left">
+                            <div class="blockquote">
+                                <div class="media"> 
+                                    <img src="assets/images/Community.jpg" alt="confident woman in the gym" class="img-thumbnail">
+                                </div>
+                            </div>    
+                        </div>   
+                            <div class="col-12 col-md-8 float-right">
+                                <div class="blockquote">
+                                    <div class="media"> 
+                                        <h2>Community</h2>
+                                        <hr>
+                                        <p>
+                                            When we do it together, we do it better! 
+                                    Take advantage of our social and sporting events to broaden your circle, or find your gym buddy to push you to the next level!
+                                        </p>
+                                    </div>       
+                            </div>
+                    </div>
+                
+
+                    <div class="row">
+                        <div class="col-12 col-md-4 float-left">
+                            <div class="blockquote">
+                                <div class="media"> 
+                                    <img src="assets/images/empowerment.jpg" alt="confident woman in the gym" class="img-thumbnail">
+                                </div>
+                            </div>    
+                        </div>   
+                            <div class="col-12 col-md-8 float-right">
+                                <div class="blockquote">
+                                    <div class="media"> 
+                                        <h2>Empowerment</h2>
+                                        <hr>
+                                        <p>
+                                        Take back control of your life; become stronger and more confident!
+                                        </p>
+                                    </div>       
+                            </div>
+                    </div>
+                        
+                    <div class="row">
+                        <div class="col-12 col-md-4 float-left">
+                            <div class="blockquote">
+                                <div class="media"> 
+                                    <img src="assets/images/strength.jpg" alt="confident woman in the gym" class="img-thumbnail">
+                                </div>
+                            </div>    
+                        </div>   
+                            <div class="col-12 col-md-8 float-right">
+                                <div class="blockquote">
+                                    <div class="media"> 
+                                        <h2>Strength</h2>
+                                        <hr>
+                                        <p>
+                                            Strengthen your body, your mind, your community!
+                                        </p>
+                                    </div>       
+                            </div>
+                    </div>
+                        
             </div>    
-        </div>   
-            <div class="col-12 col-md-8 float-right">
-                <div class="blockquote">
-                    <div class="media"> 
-                        <h2>Confidencet</h2>
-                        <hr>
-                        <p>
-                            Build your confidence in a safe environment, 
-                            surrounded by supportive, helpful and like-minded women.
-                        </p>
-                    </div>       
-            </div>
-    </div>
-    
-    <div class="row">
-        <div class="col-12 col-md-4 float-left">
-            <div class="blockquote">
-                <div class="media"> 
-                    <img src="assets/images/Community.jpg" alt="confident woman in the gym" class="img-thumbnail">
-                </div>
-            </div>    
-        </div>   
-            <div class="col-12 col-md-8 float-right">
-                <div class="blockquote">
-                    <div class="media"> 
-                        <h2>Community</h2>
-                        <hr>
-                        <p>
-                            When we do it together, we do it better! 
-                    Take advantage of our social and sporting events to broaden your circle, or find your gym buddy to push you to the next level!
-                        </p>
-                    </div>       
-            </div>
-    </div>
-
-
-<div class="row">
-    <div class="col-12 col-md-4 float-left">
-        <div class="blockquote">
-            <div class="media"> 
-                <img src="assets/images/empowerment.jpg" alt="confident woman in the gym" class="img-thumbnail">
-            </div>
-        </div>    
-    </div>   
-        <div class="col-12 col-md-8 float-right">
-            <div class="blockquote">
-                <div class="media"> 
-                    <h2>Empowerment</h2>
-                    <hr>
-                    <p>
-                    Take back control of your life; become stronger and more confident!
-                    </p>
-                </div>       
-        </div>
-</div>
-     
-<div class="row">
-    <div class="col-12 col-md-4 float-left">
-        <div class="blockquote">
-            <div class="media"> 
-                <img src="assets/images/strength.jpg" alt="confident woman in the gym" class="img-thumbnail">
-            </div>
-        </div>    
-    </div>   
-        <div class="col-12 col-md-8 float-right">
-            <div class="blockquote">
-                <div class="media"> 
-                    <h2>Strength</h2>
-                    <hr>
-                    <p>
-                        Strengthen your body, your mind, your community!
-                    </p>
-                </div>       
-        </div>
-</div>
-
-</div>    
-<!-- /.Reasons to join us -->
+        <!-- /.Reasons to join us -->
 
       
 
  <!-- Footer -->
                 <!--Credit:- code for testimonials from https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/b51f7b8b815c4bcd9979d2281b6d97a9/?child=first edited to fit project   -->
-                        <footer class="container-fluid">
-                        <div id="footer-details" class="row">
-                            <div class="col-sm-4">
-                                <h5 class="uppercase general-sub">About</h5>
-                                <p class="inline-block">
-                                    Full Stack Web Developer. Skilled in everything from HTML to Heroku. The capacity for structural and design thinking.
-                                </p>
-                            </div>
-                            <div class="col-sm-4">
-                                <h5 class="uppercase general-sub">Sign Up Now!</h5>
-                                <p class="inline-block">
-                                    <a class="nav-link btn btn--cta btn--pink" href="sign-up.html">Sign In / Sign Up</a>
-                                        <i class="fa fa-download" aria-hidden="true"></i>
-                                        <span class="sr-only">Download link.</span>
-                                    </a>
-                                </p>
-                            </div>
-                            <div class="col-sm-4">
-                                <h5 class="uppercase general-sub">Social</h5>
-                                <ul class="list-inline social-links">
-                                    <li class="list-inline-item">
-                                        <a target="_blank" href="#">
-                                            
-                                            <span class="sr-only">Facebook</span>
-                                        </a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a target="_blank" href="#">
-                                            <i class="fa fa-twitter" aria-hidden="true"></i>
-                                            <span class="sr-only">Twitter</span>
-                                        </a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a target="_blank" href="#">
-                                            <i class="fa fa-linkedin" aria-hidden="true"></i>
-                                            <span class="sr-only">LinkedIn</span>
-                                        </a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a target="_blank" href="#">
-                                            <i class="fa fa-pinterest" aria-hidden="true"></i>
-                                            <span class="sr-only">Pinterest</span>
-                                        </a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a target="_blank" href="#">
-                                            <i class="fa fa-instagram" aria-hidden="true"></i>
-                                            <span class="sr-only">Instagram</span>
-                                        </a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a target="_blank" href="#">
-                                            <i class="fa fa-youtube" aria-hidden="true"></i>
-                                            <span class="sr-only">YouTube</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </footer>
-            <!-- Footer -->
+        <footer class="container-fluid">
+            <div id="footer-details" class="row">
+                <div class="col-sm-4">
+                    <h5 class="uppercase general-sub">About</h5>
+                    <p class="inline-block">
+                        Full Stack Web Developer. Skilled in everything from HTML to Heroku. The capacity for structural and design thinking.
+                    </p>
+                </div>
+                <div class="col-sm-4">
+                    <h5 class="uppercase general-sub">Sign Up Now!</h5>
+                    <p class="inline-block">
+                        <a class="nav-link btn btn--cta btn--pink" href="sign-up.html">Sign In / Sign Up</a>
+                            <i class="fa fa-download" aria-hidden="true"></i>
+                            <span class="sr-only">Download link.</span>
+                        </a>
+                    </p>
+                </div>
+                <div class="col-sm-4">
+                    <h5 class="uppercase general-sub">Social</h5>
+                    <ul class="list-inline social-links">
+                        <li class="list-inline-item">
+                            <a target="_blank" href="#">
+                                
+                                <span class="sr-only">Facebook</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a target="_blank" href="#">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                                <span class="sr-only">Twitter</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a target="_blank" href="#">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                <span class="sr-only">LinkedIn</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a target="_blank" href="#">
+                                <i class="fa fa-pinterest" aria-hidden="true"></i>
+                                <span class="sr-only">Pinterest</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a target="_blank" href="#">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                                <span class="sr-only">Instagram</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a target="_blank" href="#">
+                                <i class="fa fa-youtube" aria-hidden="true"></i>
+                                <span class="sr-only">YouTube</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer -->
 
                     
     </body>
