@@ -1,20 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300');
 
 body {
-        font-family: Lato, sans-serif;
-        color: #777777;
-      }   
+    font-family: Lato, sans-serif;
+    color: #777777;
+    }   
 
-      #welcome {
-        text-align: center;
-        font-family: Lato, sans-serif;
-        color:#401d35;
-        font-size: 90px;
-    }
+    #welcome-classes {
+    background-color: #401d35;
+    text-align: center;
+    font-family: Lato, sans-serif;
+    color: #fff;
+    font-size: 90px;
+} 
+#welcome {
+    text-align: center;
+    font-family: Lato, sans-serif;
+    color:#401d35;
+    font-size: 90px;
+}
 
-    #contact-us {
-        margin-bottom: 30%;
-    }
+#contact-us {
+    margin-bottom: 30%;
+}
 
 /* code taken from https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/a4b90d17e5c94220a0f83f00ce7fa606/4b3b1b062b01424997c8fd052e177b8e/?child=first*/
 .callout-container {
@@ -246,8 +253,6 @@ footer {
 
 }
 
-
-
 /* ------------------------------------------------- modal ----*/
 .modal-title {
     font-family: Lato, sans-serif;
@@ -286,3 +291,117 @@ margin-right: 25%;
     margin-left: 29%;
 }
 
+/* ------------------------------------------------- Classes timetable ----*/
+/*Credit: Css taken from: https://www.bootdey.com/snippets/view/time-table#html and edited for this project ----*/
+body{
+    margin-top:20px;
+}
+.bg-light-gray {
+    background-color: #f7f7f7;
+}
+.table-bordered thead td, .table-bordered thead th {
+    border-bottom-width: 2px;
+}
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+.table-bordered td, .table-bordered th {
+    border: 1px solid #dee2e6;
+}
+
+
+.bg-sky.box-shadow {
+    box-shadow: 0px 5px 0px 0px #00a2a7
+}
+
+.bg-orange.box-shadow {
+    box-shadow: 0px 5px 0px 0px #af4305
+}
+
+.bg-green.box-shadow {
+    box-shadow: 0px 5px 0px 0px #4ca520
+}
+
+.bg-yellow.box-shadow {
+    box-shadow: 0px 5px 0px 0px #dcbf02
+}
+
+.bg-pink.box-shadow {
+    box-shadow: 0px 5px 0px 0px #e82d8b
+}
+
+.bg-purple.box-shadow {
+    box-shadow: 0px 5px 0px 0px #8343e8
+}
+
+.bg-lightred.box-shadow {
+    box-shadow: 0px 5px 0px 0px #d84213
+}
+
+
+.bg-sky {
+    background-color: #02c2c7
+}
+
+.bg-orange {
+    background-color: #e95601
+}
+
+.bg-green {
+    background-color: #5bbd2a
+}
+
+.bg-yellow {
+    background-color: #f0d001
+}
+
+.bg-pink {
+    background-color: #ff48a4
+}
+
+.bg-purple {
+    background-color: #9d60ff
+}
+
+.bg-lightred {
+    background-color: #ff5722
+}
+
+.padding-15px-lr {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.padding-5px-tb {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.margin-10px-bottom {
+    margin-bottom: 10px;
+}
+.border-radius-5 {
+    border-radius: 5px;
+}
+
+.margin-10px-top {
+    margin-top: 10px;
+}
+.font-size14 {
+    font-size: 14px;
+}
+
+.text-light-gray {
+    color: #d6d5d5;
+}
+.font-size13 {
+    font-size: 13px;
+}
+
+.table-bordered td, .table-bordered th {
+    border: 1px solid #dee2e6;
+}
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
