@@ -76,7 +76,10 @@
                                     <label class="form-check-label" for="exampleCheck1">Sign up for our newsletter</label>
                                     </div>
                                     <button type="submit" class=" mb-3 btn btn--cta btn--pink">Submit</button>
-                                </div>
+                                    <button type="button" class="btn btn-lg btn--cta btn--pink" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        Sign Up Now!
+                                    </button>
+                                 </div>
                             </div>
                         </div>
                     </div>
@@ -149,7 +152,41 @@
                 </div>
             </footer>
             <!-- Footer -->
-
+            <!--Credit:- code for Modal from https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/a4b90d17e5c94220a0f83f00ce7fa606/7c0e25d1061e47cdae9c492d623bfc65/?child=first  edited to fit project   --> 
+                        <!-- /.Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Sign Up Here</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="form-group">
+                                        <label for="exampleInputEmail1">Email address</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                        </div>
+                                        <div class="form-group">
+                                        <label for="exampleInputPassword1">Password</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleInputPassword2">Re-enter Password</label>
+                                            <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Re-enter Password">
+                                        </div>
+                                        <div class="form-check">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <label class="form-check-label" for="exampleCheck1">Sign up for our newsletter</label>
+                                        </div>
+                                        <button type="submit" class="btn btn--cta btn--pink">Submit</button>
+                                    </form>
+                                
+                            </div>
+                            </div>
+                        </div>
+                        <!-- /.modal -->
             
     </body>
 </html>
