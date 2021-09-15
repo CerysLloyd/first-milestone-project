@@ -28,7 +28,7 @@ body {
 
 .content-container {
     padding-top: 40px;
-    padding-bottom: 75px;
+    padding-bottom: 40px;
 
 }
 
@@ -40,6 +40,11 @@ body {
     background-color: #401d35;
     color:#fff;
     
+}
+
+.sign-up-container {
+    padding-top: 0px;
+}
 }
 
 #welcome {
@@ -235,3 +240,23 @@ footer {
     font-size: 20px;
     color: #401d35;
 }
+
+/* ------------------------------------------------- Sign Up Page ----*/
+.mb-3 {
+margin-left: 25%;
+margin-right: 25%;
+
+}
+
+.sign-up-logo {
+    margin-top: 20px;
+    margin-left: 40%;
+}
+
+.sign-up-legend {
+    margin-left: 25%;
+    font-family: lato, sans-serif;
+    font-weight: 800;
+    color: #401d35;
+}
+
