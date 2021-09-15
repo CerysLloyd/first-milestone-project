@@ -260,3 +260,8 @@ margin-right: 25%;
     color: #401d35;
 }
 
+.btn--cta--sign {
+    font-weight: bold;
+    border-radius: 23px;
+}
+
