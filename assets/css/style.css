@@ -243,10 +243,6 @@ footer {
     background: #f72585;
 }
 
-.list-inline social-links {
-
-}
-
 /* ------------------------------------------------- modal ----*/
 .modal-title {
     font-family: Lato, sans-serif;
@@ -304,53 +300,12 @@ body{
     border: 1px solid #dee2e6;
 }
 
-
 .bg-purple.box-shadow {
     box-shadow: 0px 5px 0px 0px#401d35
 }
 
 .bg-pink.box-shadow {
     box-shadow: 0px 5px 0px 0px #f72585
-}
-
-.bg-white.box-shadow {
-    box-shadow: 0px 5px 0px 0px #fff
-}
-
-.bg-funky.box-shadow {
-    box-shadow: 0px 5px 0px 0px #401d35
-}
-
-.bg-pink.box-shadow {
-    box-shadow: 0px 5px 0px 0px #401d35
-}
-
-.bg-yoga.box-shadow {
-    box-shadow: 0px 5px 0px 0px #401d35
-}
-
-.bg-kickbox.box-shadow {
-    box-shadow: 0px 5px 0px 0px #401d35
-}
-
-.bg-ballet.box-shadow {
-    box-shadow: 0px 5px 0px 0px #401d35
-}
-
-.bg-boxfit.box-shadow {
-    box-shadow: 0px 5px 0px 0px #401d35
-}
-
-.bg-legs.box-shadow {
-    box-shadow: 0px 5px 0px 0px #401d35
-}
-
-.bg-funky.box-shadow {
-    box-shadow: 0px 5px 0px 0px #401d35
-}
-
-.bg-spin.box-shadow {
-    box-shadow: 0px 5px 0px 0px #401d35
 }
 
 .bg-purple {
@@ -360,47 +315,6 @@ body{
 .bg-pink {
     background-color:  #f72585
 }
-
-.bg-white {
-    background-color: #fff
-}
-
-.bg-boxfit {
-    background-color: #401d35
-}
-
-.bg-legs {
-    background-color: #401d35
-}
-
-.bg-funky {
-    background-color: #401d35
-}
-.bg-pilates {
-    background-color: #401d35
-}
-
-.bg-self {
-    background-color:#401d35
-}
-
-.bg-dance {
-    background-color:#401d35
-}
-
-.bg-hiit {
-    background-color:#401d35
-}
-
-.bg-yoga {
-    background-color:#401d35
-}
-
-.bg-kickbox {
-    background-color:#401d35
-}
-
-
 
 .padding-15px-lr {
     padding-left: 15px;
@@ -439,3 +353,22 @@ body{
     vertical-align: top;
     border-top: 1px solid #dee2e6;
 }
+
+/* ------------------------------------------------- Contact Us Page ----*/
+
+.contact-us {
+    color: #310b25;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.contact-us a i {
+    width: 45px;
+    height: 45px;
+    padding: 16PX 0;
+    border-radius: 50%;
+    font-size: 26px;
+    line-height: 14px;
+    text-align: center;
+    color: #fff;
+    background: #401d35;
