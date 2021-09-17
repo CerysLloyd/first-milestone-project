@@ -37,6 +37,7 @@ body {
         position: relative;
     }
 
+
 .content-container {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -56,6 +57,12 @@ body {
     max-width: 100%;
     color:#310b25
        
+}
+
+.classes-container {
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .container-wrapper--purple {
