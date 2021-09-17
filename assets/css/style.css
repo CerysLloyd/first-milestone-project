@@ -3,13 +3,52 @@
 body {
     font-family: Lato, sans-serif;
     color: #777777;
-    }   
+    } 
+    
+.card-title {
+    font-size: 2rem;
+}
 
 #welcome {
     text-align: center;
     font-family: Lato, sans-serif;
     color:#401d35;
-    font-size: 90px;
+    font-size: 4rem;
+}
+
+#reasons {
+    text-align: center;
+    font-family: Lato, sans-serif;
+    color:#401d35;
+    font-size: 4rem;
+}
+
+#whats {
+    text-align: center;
+    font-family: Lato, sans-serif;
+    color:#401d35;
+    font-size: 4rem;
+}
+
+#classes{
+    text-align: center;
+    font-family: Lato, sans-serif;
+    color:#401d35;
+    font-size: 4rem;
+}
+
+#contact-head {
+    text-align: center;
+    font-family: Lato, sans-serif;
+    color:#401d35;
+    font-size: 4rem;
+}
+
+#timetable-head {
+    text-align: center;
+    font-family: Lato, sans-serif;
+    color:#401d35;
+    font-size: 4rem;
 }
 
 #contact-us {
@@ -52,7 +91,6 @@ body {
 }
 .reasons-container {
     padding-top: 10px;
-    
     color: #310b25;
 }
 .grid-container {
@@ -105,6 +143,14 @@ body {
     text-transform: uppercase;
     
 
+}
+
+.card h-100 .card-img-top {
+    .card-img-top {
+        width: 100%;
+        height: 15vw;
+        object-fit: cover;
+    }
 }
 
 /* ------------------------------------------------- Nav Bar ----*/
@@ -202,11 +248,7 @@ body {
         background-color: rgba(0, 0, 0, 0.5);
     }
 
-    .card-img-top {
-        width: 100%;
-        height: 15vw;
-        object-fit: cover;
-    }
+
 
 /* ------------------------------------------------- Testimonials ----*/
 
@@ -277,43 +319,6 @@ footer {
 
 .social-links li a i:hover {
     background: #f72585;
-}
-
-/* ------------------------------------------------- modal ----*/
-.modal-title {
-    font-family: Lato, sans-serif;
-    font-size: 30px;
-    color: #401d35;    
-}
-
-.form-check-label {
-    font-family: Lato, sans-serif;
-    font-size: 20px;
-    color: #401d35;
-}
-
-/* ------------------------------------------------- Sign Up Page ----*/
-.mb-3 {
-margin-left: 25%;
-margin-right: 25%;
-
-}
-
-.sign-up-logo {
-    margin-top: 20px;
-}
-
-.sign-up-legend {
-    margin-left: 25%;
-    font-family: lato, sans-serif;
-    font-weight: 800;
-    color: #401d35;
-}
-
-.btn--cta--sign {
-    font-weight: bold;
-    border-radius: 23px;
-    margin-left: 29%;
 }
 
 /* ------------------------------------------------- Classes page and timetable ----*/
