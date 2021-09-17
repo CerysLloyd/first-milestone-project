@@ -1,4 +1,3 @@
-
 <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -10,682 +9,623 @@
         <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     </head>
 
-<body>
-  <!-- Nav Bar-->    
-     <!-- credit: - code for nav from https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/a4b90d17e5c94220a0f83f00ce7fa606/2aca2c94a518427495cc1b4bc641ccbf/?child=first edited to fit project-->
-    <!-- credit: - code for nav from https://getbootstrap.com/docs/5.1/components/navbar/ edited to fit project-->      
-    <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">Women Only Workouts</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon fas fa-bars"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="classes.html">Classes</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn--cta btn--pink" type="submit">Search</button>
-                </form>
+    <body>
+        <!-- Nav Bar-->    
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Women Only Workouts</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon fas fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="classes.html">Classes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn--cta btn--pink" type="submit">Search</button>
+                    </form>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+            <!-- Nav Bar--> 
 
-        <!-- New Classes-->
+            <!-- Classes on offer-->
+            <div class="container-wrapper">
+                <div class="container classhead-container"> 
+                    <div class="row">
+                        <div class="col-12 my-3">
+                            <h2 id="classes">Classes</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+            <div class="container-wrapper classes-container">
+                <div class="classes-container"> 
+                    <div class="row row-cols-1 row-cols-md-2 g-4">
+                        <div class="col">
+                            <div class="card">
+                                <img src="assets/images/Yoga.jpg" class="card-img-top" alt="3 women doing yoga stretches on yoga mats">
+                                <div class="card-body">
+                                <h5 class="card-title">Yoga & Pilates Workouts</h5>
+                                <p class="card-text">Improve your posture, balance and strength with our range of pilates and yoga classes.</p>
+                                <p>Strengthen and tone muscles with a range of stretches and gentle movements.</p>
+                                <p>Whether your a novice or a long practicing Yogi, we have the class for you. </p>
+                                <a href="#timetable-head" class="btn btn-lg btn--cta btn--pink btn--class d-none d-lg-block" role="button" aria-pressed="true">View Classes</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="assets/images/boxfit2.jpg" class="card-img-top" alt="woman boxing with pink gloves">
+                                <div class="card-body">
+                                <h5 class="card-title">Martial Arts Workouts</h5>
+                                <p class="card-text">We believe it's important that women know how to defend themselves.</p>
+                                <p>At W.O.W we offer a range of self defence and martial arts based cardio workouts.</p>
+                                <p>Kickboxing, Boxfit and Self Defence. All levels and skills welcome.</p>
+                                <a href="#timetable-head" class="btn btn-lg btn--cta btn--pink btn--class d-none d-lg-block" role="button" aria-pressed="true">View Classes</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="assets/images/legsbumstums.jpg" class="card-img-top" alt="gym class of women doing squats">
+                                <div class="card-body">
+                                <h5 class="card-title">Legs, Bums and Tums</h5>
+                                <p class="card-text">Tone up trouble areas with our fully aerobic workout.</p>
+                                <p>These classes are ideal for ladies who want to tone, lose weight or improve fitness levels.</p>
+                                <p>Work at your own pace, these classes cater for every ability.</p>
+                                <a href="#timetable-head" class="btn btn-lg btn--cta btn--pink btn--class d-none d-lg-block" role="button" aria-pressed="true">View Classes</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="assets/images/warrior.jpg" class="card-img-top" alt="Woman in the gym working out on the ropes">
+                                <div class="card-body">
+                                <h5 class="card-title">Warrior Workouts</h5>
+                                <p class="card-text">A range of classes that focus on cardio and High Intensity Interval Training.</p>
+                                <p>These 45 minute classes will have you in peak condition in no time.</p>
+                                <p>Work at your own pace, our classes are for every ability.</p>
+                                <a href="#timetable-head" class="btn btn-lg btn--cta btn--pink btn--class d-none d-lg-block" role="button" aria-pressed="true">View Classes</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="assets/images/core.jpg" class="card-img-top" alt="women doing stretches with resistance bands">
+                                <div class="card-body">
+                                    <h5 class="card-title">Let's Get Dancing!</h5>
+                                    <p class="card-text">Check out our range of dance based fitness classes on offer at W.O.W</p>
+                                    <p>We offer Zumba, Ballet-fit and our super popular Funky Pop; a fusion of resistance band training and some super funky dance moves.</p>
+                                    <a href="#timetable-head" class="btn btn-lg btn--cta btn--pink btn--class d-none d-lg-block" role="button" aria-pressed="true">View Classes</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="assets/images/bootcamp.jpg" class="card-img-top" alt="image of woman stood outside before her workout">
+                                <div class="card-body">
+                                    <h5 class="card-title">Bootcamp Workouts</h5>
+                                    <p class="card-text">Let's take this outside! Held in our outdoor arena/ assault course.</p>
+                                    <p>Our famous bootcamp runs twice daily and is only 45 minutes long.</p>
+                                    <p> NO TIME, IS NO EXCUSE!</p>
+                                    <a href="#timetable-head" class="btn btn-lg btn--cta btn--pink btn--class d-none d-lg-block" role="button" aria-pressed="true">View Classes</a>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+            </div>    
+            <!-- /.Classes on offer -->
 
-        <div class="container-wrapper">
-            <div class="container reasons-container"> 
-                <div class="row">
-                    <div class="col-12 my-3">
-                        <h2 id="classes">Classes</h2>
-                    </div>
-                </div>
-            </div>
-        </div>  
-            <div class="container classes-container">
-                <div class="row my-row">
-                    <div class="col-lg-4 col-md-6 col-sm-12 my-col">
-                        <div class="media"> 
-                            <img src="assets/images/Yoga.jpg" alt="confident woman in the gym" class="img-thumbnail">
-                        </div>
-                    </div>
-                    <div class="col-lg-8 col-md-6 col-sm-12 my-col">
-                        <div class="classes-quote"> 
-                            <h2>Yoga & Pilates Workouts</h2>
-                            <hr>
-                            <p>Improve your posture, balance and strength with our range of pilates and yoga classes.</p>
-                            <p> Whether your a novice or a long practicing Yogi, we have the class for you.</p>
-                            <a href="#timetable-head" class="btn btn-lg btn--cta btn--pink btn--class d-none d-lg-block" role="button" aria-pressed="true">View Classes</a>
-                        </div>
-                    </div> 
-                </div>
-            </div>
-            <div class="container classes-container">
-                <div class="row my-row">
-                    <div class="col-lg-4 col-md-6 col-sm-12 my-col">
-                        <div class="blockquote">
-                            <div class="media"> 
-                                <img src="assets/images/boxfit2.jpg" alt="confident woman in the gym" class="img-thumbnail">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-8 col-md-6 col-sm-12 my-col">
-                        <div class="class-quotes"> 
-                            <h2>Self Defence and Martial Arts Workouts</h2>
-                            <hr>
-                            <p>We believe it's important that women know how to defend themselves.</p>
-                            <p>At W.O.W we offer a range of self defence classes, Kickboxing and martial arts based cardio workouts.</p>
-                            
-                            <a href="#timetable-head" class="btn btn-lg btn--cta btn--pink btn--class d-none d-lg-block" role="button" aria-pressed="true">View Classes</a>
-                        </div>
-                    </div> 
-                </div>
-            </div>
-            <div class="container classes-container">
-                <div class="row my-row">
-                    <div class="col-lg-4 col-md-6 col-sm-12 my-col">
-                        <div class="blockquote">
-                            <div class="media"> 
-                                <img src="assets/images/legsbumstums.jpg" alt="confident woman in the gym" class="img-thumbnail">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-8 col-md-6 col-sm-12 my-col">
-                        <div class="class-quotes"> 
-                            <h2>Legs, Bums and Tums</h2>
-                            <hr>
-                            <p>Tone up trouble areas with our fully aerobic workout.</p>
-                            <p>These classes are ideal for ladies who want to tone, lose weight or improve fitness levels.</p>
-                            <a href="#timetable-head" class="btn btn-lg btn--cta btn--pink btn--class d-none d-lg-block" role="button" aria-pressed="true">View Classes</a>
-                        </div> 
-                    </div> 
-                </div>
-            </div>
-            <div class="container classes-container">
-                <div class="row my-row">
-                    <div class="col-lg-4 col-md-6 col-sm-12 my-col">
-                        <div class="blockquote">
-                            <div class="media"> 
-                                <img src="assets/images/warrior.jpg" alt="confident woman in the gym" class="img-thumbnail">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-8 col-md-6 col-sm-12 my-col">
-                        <div class="class-quotes"> 
-                            <h2>Warrior Workouts</h2>
-                            <hr>
-                            <p>Our Warrior Workouts are a range of classes that focus on cardio and High Intensity Interval Training.</p>
-                            <p>These 45 minute classes will have you in peak condition in no time.</p>
-                            <p>NOT FIT? No Worries... work at your own pace, our classes are for every ability.</p>
-                            <a href="#timetable-head" class="btn btn-lg btn--cta btn--pink btn--class d-none d-lg-block" role="button" aria-pressed="true">View Classes</a>
-                        </div> 
-                    </div> 
-                </div>
-            </div>
-            <div class="container classes-container">
-                <div class="row my-row">
-                    <div class="col-lg-4 col-md-6 col-sm-12 my-col">
-                        <div class="blockquote">
-                            <div class="media"> 
-                                <img src="assets/images/core.jpg" alt="confident woman in the gym" class="img-thumbnail">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-8 col-md-6 col-sm-12 my-col">
-                        <div class="class-quotes"> 
-                            <h2>Let's Get Dancing!</h2>
-                            <hr>
-                            <p>Check out our range of dance based fitness classes on offer at W.O.W</p>
-                            <p>We offer Zumba, Ballet-fit and our super popular Funky Pop; </p>
-                            <p>a fusion of resistance band training and dance moves.</p>
-                            <a href="#timetable-head" class="btn btn-lg btn--cta btn--pink btn--class d-none d-lg-block" role="button" aria-pressed="true">View Classes</a>
-                        </div> 
-                    </div> 
-                </div>
-            </div>
-            <div class="container classes-container">
-                <div class="row my-row">
-                    <div class="col-lg-4 col-md-6 col-sm-12 my-col">
-                        <div class="blockquote">
-                            <div class="media"> 
-                                <img src="assets/images/bootcamp.jpg" alt="confident woman in the gym" class="img-thumbnail">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-8 col-md-6 col-sm-12 my-col">
-                        <div class="media"> 
-                            <h2>Bootcamp Workouts</h2>
-                            <hr>
-                            <p>Let's take this outside!</p>
-                            <p>Held in our outdoor arena/ assault course.</p>
-                            <p>Our famous bootcamp runs twice daily and is only 45 minutes long.</p>
-                            <p>NO TIME, IS NO EXCUSE!</p>
-                            <a href="#timetable-head" class="btn btn-lg btn--cta btn--pink btn--class d-none d-lg-block" role="button" aria-pressed="true">View Classes</a>
-                        </div>
-                    </div> 
-                </div>
-            </div>
+            <!-- /.Timetable -->
             
-    
-         <!-- /.Classes on offer -->
-
-                
-                        
-                        
-                        
-                       
-                       
-
-        <!-- /.Classes on offer -->
-
-         <!-- /.Timetable -->
-         <!-- /.Credit: Timetable html and css taken from template and edited for this project https://www.bootdey.com/snippets/view/time-table#html -->
-        <div class="container-wrapper">
-            <div class="container timetable-container content-container d-none d-lg-block"> 
-                <div class="row">
-                    <div class="col-12 my-3">
-                        <h2 id="timetable-head">Class Timetable</h2>
+            <div class="container-wrapper">
+                <div class="container timetable-container content-container d-none d-lg-block"> 
+                    <div class="row">
+                        <div class="col-12 my-3">
+                            <h2 id="timetable-head">Class Timetable</h2>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="container">
-            <div class="table-responsive">
-                <table class="table table-bordered text-center d-none d-lg-block">
-                    <thead>
-                        <tr class="bg-light-gray">
-                            <th class="text-uppercase">Time
-                            </th>
-                            <th class="text-uppercase">Monday</th>
-                            <th class="text-uppercase">Tuesday</th>
-                            <th class="text-uppercase">Wednesday</th>
-                            <th class="text-uppercase">Thursday</th>
-                            <th class="text-uppercase">Friday</th>
-                            <th class="text-uppercase">Saturday</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td class="align-middle">06:00 - 06.45am</td>
-                            <td>
-                                <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13">Bootcamp</span>
-                                <div class="margin-10px-top font-size14">Outdoor Arena</div>
-                                <div class="font-size13 text-light-gray">Ivana Wong</div>
-                            </td>
-                            <td>
-                                <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Bootcamp</span>
-                                <div class="margin-10px-top font-size14">Outdoor Arena</div>
-                                <div class="font-size13 text-light-gray">Ivana Wong</div>
-                            </td>
+            <div class="container">
+                <div class="table-responsive">
+                    <table class="table table-bordered text-center d-none d-lg-block">
+                        <thead>
+                            <tr class="bg-light-gray">
+                                <th class="text-uppercase">Time
+                                </th>
+                                <th class="text-uppercase">Monday</th>
+                                <th class="text-uppercase">Tuesday</th>
+                                <th class="text-uppercase">Wednesday</th>
+                                <th class="text-uppercase">Thursday</th>
+                                <th class="text-uppercase">Friday</th>
+                                <th class="text-uppercase">Saturday</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="align-middle">06:00 - 06.45am</td>
+                                <td>
+                                    <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13">Bootcamp</span>
+                                    <div class="margin-10px-top font-size14">Outdoor Arena</div>
+                                    <div class="font-size13 text-light-gray">Ivana Wong</div>
+                                </td>
+                                <td>
+                                    <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Bootcamp</span>
+                                    <div class="margin-10px-top font-size14">Outdoor Arena</div>
+                                    <div class="font-size13 text-light-gray">Ivana Wong</div>
+                                </td>
 
-                            <td>
-                                <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Bootcamp</span>
-                                <div class="margin-10px-top font-size14">Outdoor Arena</div>
-                                <div class="font-size13 text-light-gray">Ivana Wong</div>
-                            </td>
-                            <td>
-                                <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Bootcamp</span>
-                                <div class="margin-10px-top font-size14">Outdoor Arena</div>
-                                <div class="font-size13 text-light-gray">Ivana Wong</div>
-                            </td>
-                            <td>
-                                <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Bootcamp</span>
-                                <div class="margin-10px-top font-size14">Outdoor Arena</div>
-                                <div class="font-size13 text-light-gray">Ivana Wong</div>
-                            </td>
-                            <td>
-                                <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Bootcamp</span>
-                                <div class="margin-10px-top font-size14">Outdoor Arena</div>
-                                <div class="font-size13 text-light-gray">Ivana Wong</div>
-                            </td>
-                        </tr>
+                                <td>
+                                    <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Bootcamp</span>
+                                    <div class="margin-10px-top font-size14">Outdoor Arena</div>
+                                    <div class="font-size13 text-light-gray">Ivana Wong</div>
+                                </td>
+                                <td>
+                                    <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Bootcamp</span>
+                                    <div class="margin-10px-top font-size14">Outdoor Arena</div>
+                                    <div class="font-size13 text-light-gray">Ivana Wong</div>
+                                </td>
+                                <td>
+                                    <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Bootcamp</span>
+                                    <div class="margin-10px-top font-size14">Outdoor Arena</div>
+                                    <div class="font-size13 text-light-gray">Ivana Wong</div>
+                                </td>
+                                <td>
+                                    <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Bootcamp</span>
+                                    <div class="margin-10px-top font-size14">Outdoor Arena</div>
+                                    <div class="font-size13 text-light-gray">Ivana Wong</div>
+                                </td>
+                            </tr>
 
-                        <tr>
-                            <td class="align-middle">07.00 - 07.45am</td>
-                            <td>
-                                <span class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">H.I.I.T</span>
-                                <div class="margin-10px-top font-size14">Gym</div>
-                                <div class="font-size13 text-light-gray">Jo Harman</div>
-                            </td>
-                            <td class="bg-light-gray">
+                            <tr>
+                                <td class="align-middle">07.00 - 07.45am</td>
+                                <td>
+                                    <span class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">H.I.I.T</span>
+                                    <div class="margin-10px-top font-size14">Gym</div>
+                                    <div class="font-size13 text-light-gray">Jo Harman</div>
+                                </td>
+                                <td class="bg-light-gray">
 
-                            </td>
-                            <td>
-                                <span class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">H.I.I.T</span>
-                                <div class="margin-10px-top font-size14">Gym</div>
-                                <div class="font-size13 text-light-gray">Jo Harman</div>
-                            </td>
-                            <td class="bg-light-gray">
+                                </td>
+                                <td>
+                                    <span class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">H.I.I.T</span>
+                                    <div class="margin-10px-top font-size14">Gym</div>
+                                    <div class="font-size13 text-light-gray">Jo Harman</div>
+                                </td>
+                                <td class="bg-light-gray">
 
-                            </td>
-                            <td>
-                                <span class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">H.I.I.T</span>
-                                <div class="margin-10px-top font-size14">Gym</div>
-                                <div class="font-size13 text-light-gray">Jo Harman</div>
-                            </td>
-                            <td class="bg-light-gray">
+                                </td>
+                                <td>
+                                    <span class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">H.I.I.T</span>
+                                    <div class="margin-10px-top font-size14">Gym</div>
+                                    <div class="font-size13 text-light-gray">Jo Harman</div>
+                                </td>
+                                <td class="bg-light-gray">
 
-                            </td>
-                        </tr>
+                                </td>
+                            </tr>
 
-                        <tr>
-                            <td class="align-middle">08.00 - 08.45am</td>
-                            <td>
-                                <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13">Yoga</span>
-                                <div class="margin-10px-top font-size14">Studio A</div>
-                                <div class="font-size13 text-light-gray">Cha Evans</div>
-                            </td>
-                            <td>
-                                <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13">Pilates</span>
-                                <div class="margin-10px-top font-size14">Studio A</div>
-                                <div class="font-size13 text-light-gray">Rose Everdeen</div>
-                            </td>
-                            <td>
-                                <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13">Yoga</span>
-                                <div class="margin-10px-top font-size14">Studio A</div>
-                                <div class="font-size13 text-light-gray">Cha Evans</div>
-                            </td>
-                            <td>
-                                <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13">Yoga</span>
-                                <div class="margin-10px-top font-size14">Studio A</div>
-                                <div class="font-size13 text-light-gray">Rose Everdeen</div>
-                            </td>
-                            <td>
-                                <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13">Yoga</span>
-                                <div class="margin-10px-top font-size14">Studio A</div>
-                                <div class="font-size13 text-light-gray">Cha Evans</div>
-                            </td>
-                            <td>
-                                
-                            </td>
-                        </tr>
+                            <tr>
+                                <td class="align-middle">08.00 - 08.45am</td>
+                                <td>
+                                    <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13">Yoga</span>
+                                    <div class="margin-10px-top font-size14">Studio A</div>
+                                    <div class="font-size13 text-light-gray">Cha Evans</div>
+                                </td>
+                                <td>
+                                    <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13">Pilates</span>
+                                    <div class="margin-10px-top font-size14">Studio A</div>
+                                    <div class="font-size13 text-light-gray">Rose Everdeen</div>
+                                </td>
+                                <td>
+                                    <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13">Yoga</span>
+                                    <div class="margin-10px-top font-size14">Studio A</div>
+                                    <div class="font-size13 text-light-gray">Cha Evans</div>
+                                </td>
+                                <td>
+                                    <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13">Yoga</span>
+                                    <div class="margin-10px-top font-size14">Studio A</div>
+                                    <div class="font-size13 text-light-gray">Rose Everdeen</div>
+                                </td>
+                                <td>
+                                    <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13">Yoga</span>
+                                    <div class="margin-10px-top font-size14">Studio A</div>
+                                    <div class="font-size13 text-light-gray">Cha Evans</div>
+                                </td>
+                                <td>
+                                    
+                                </td>
+                            </tr>
 
-                        <tr>
-                            <td class="align-middle">09.00 - 09.45am</td>
-                            <td>
-                                <span class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">H.I.I.T</span>
-                                <div class="margin-10px-top font-size14">Gym</div>
-                                <div class="font-size13 text-light-gray">Jo Harman</div>
-                            </td>
-                            <td class="bg-light-gray">
+                            <tr>
+                                <td class="align-middle">09.00 - 09.45am</td>
+                                <td>
+                                    <span class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">H.I.I.T</span>
+                                    <div class="margin-10px-top font-size14">Gym</div>
+                                    <div class="font-size13 text-light-gray">Jo Harman</div>
+                                </td>
+                                <td class="bg-light-gray">
 
-                            </td>
-                            <td>
-                                <span class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">H.I.I.T</span>
-                                <div class="margin-10px-top font-size14">Gym</div>
-                                <div class="font-size13 text-light-gray">Jo Harman</div>
-                            </td>
-                            <td class="bg-light-gray">
+                                </td>
+                                <td>
+                                    <span class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">H.I.I.T</span>
+                                    <div class="margin-10px-top font-size14">Gym</div>
+                                    <div class="font-size13 text-light-gray">Jo Harman</div>
+                                </td>
+                                <td class="bg-light-gray">
 
-                            </td>
-                            <td>
-                                <span class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">H.I.I.T</span>
-                                <div class="margin-10px-top font-size14">Gym</div>
-                                <div class="font-size13 text-light-gray">Jo Harman</div>
-                            </td>
-                            <td>
-                                <span class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">H.I.I.T</span>
-                                <div class="margin-10px-top font-size14">Gym</div>
-                                <div class="font-size13 text-light-gray">Jo Harman</div>
-                            </td>
-                        </tr>
+                                </td>
+                                <td>
+                                    <span class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">H.I.I.T</span>
+                                    <div class="margin-10px-top font-size14">Gym</div>
+                                    <div class="font-size13 text-light-gray">Jo Harman</div>
+                                </td>
+                                <td>
+                                    <span class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">H.I.I.T</span>
+                                    <div class="margin-10px-top font-size14">Gym</div>
+                                    <div class="font-size13 text-light-gray">Jo Harman</div>
+                                </td>
+                            </tr>
 
-                        <tr>
-                            <td class="align-middle">10.00 - 10.45am</td>
-                            </td>
-                            <td>
-                                <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Ballet Fit</span>
-                                <div class="margin-10px-top font-size14">Studio A</div>
-                                <div class="font-size13 text-light-gray">Alison Phillips</div>
-                            </td>
-                            <td>
-                                <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Leg Bums Tums</span>
-                                <div class="margin-10px-top font-size14">Studio A</div>
-                                <div class="font-size13 text-light-gray">Jenna Davies</div>
-                            </td>
-                            <td>
-                                <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Ballet Fit</span>
-                                <div class="margin-10px-top font-size14">Studio A</div>
-                                <div class="font-size13 text-light-gray">Alison Phillips</div>
-                            </td>
-                            <td>
-                                <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Leg Bums Tums</span>
-                                <div class="margin-10px-top font-size14">Studio A</div>
-                                <div class="font-size13 text-light-gray">Jenna Davies</div>
-                            </td>
-                            <td>
-                                <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Ballet Fit</span>
-                                <div class="margin-10px-top font-size14">Studio A</div>
-                                <div class="font-size13 text-light-gray">Alison Phillips</div>
-                            </td>
-                            <td>
-                                <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Zumba</span>
-                                <div class="margin-10px-top font-size14">Studio A</div>
-                                <div class="font-size13 text-light-gray">Janice Stuart</div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="align-middle">11.00 - 11.45am</td>
-                            <td>
-                                <span class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Box Fit</span>
-                                <div class="margin-10px-top font-size14">Studio A</div>
-                                <div class="font-size13 text-light-gray">Drew T</div>
-                            </td>
-                            <td class="bg-light-gray">
+                            <tr>
+                                <td class="align-middle">10.00 - 10.45am</td>
+                                </td>
+                                <td>
+                                    <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Ballet Fit</span>
+                                    <div class="margin-10px-top font-size14">Studio A</div>
+                                    <div class="font-size13 text-light-gray">Alison Phillips</div>
+                                </td>
+                                <td>
+                                    <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Leg Bums Tums</span>
+                                    <div class="margin-10px-top font-size14">Studio A</div>
+                                    <div class="font-size13 text-light-gray">Jenna Davies</div>
+                                </td>
+                                <td>
+                                    <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Ballet Fit</span>
+                                    <div class="margin-10px-top font-size14">Studio A</div>
+                                    <div class="font-size13 text-light-gray">Alison Phillips</div>
+                                </td>
+                                <td>
+                                    <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Leg Bums Tums</span>
+                                    <div class="margin-10px-top font-size14">Studio A</div>
+                                    <div class="font-size13 text-light-gray">Jenna Davies</div>
+                                </td>
+                                <td>
+                                    <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Ballet Fit</span>
+                                    <div class="margin-10px-top font-size14">Studio A</div>
+                                    <div class="font-size13 text-light-gray">Alison Phillips</div>
+                                </td>
+                                <td>
+                                    <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Zumba</span>
+                                    <div class="margin-10px-top font-size14">Studio A</div>
+                                    <div class="font-size13 text-light-gray">Janice Stuart</div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="align-middle">11.00 - 11.45am</td>
+                                <td>
+                                    <span class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Box Fit</span>
+                                    <div class="margin-10px-top font-size14">Studio A</div>
+                                    <div class="font-size13 text-light-gray">Drew T</div>
+                                </td>
+                                <td class="bg-light-gray">
 
-                            </td>
-                            <td>
-                                <span class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Box Fit</span>
-                                <div class="margin-10px-top font-size14">Studio A</div>
-                                <div class="font-size13 text-light-gray">Drew T</div>
-                            </td>
-                            <td class="bg-light-gray">
+                                </td>
+                                <td>
+                                    <span class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Box Fit</span>
+                                    <div class="margin-10px-top font-size14">Studio A</div>
+                                    <div class="font-size13 text-light-gray">Drew T</div>
+                                </td>
+                                <td class="bg-light-gray">
 
-                            </td>
-                            <td>
-                                <span class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Box Fit</span>
-                                <div class="margin-10px-top font-size14">Studio A</div>
-                                <div class="font-size13 text-light-gray">Drew T</div>
-                            </td>
-                            <td class="bg-light-gray">
+                                </td>
+                                <td>
+                                    <span class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Box Fit</span>
+                                    <div class="margin-10px-top font-size14">Studio A</div>
+                                    <div class="font-size13 text-light-gray">Drew T</div>
+                                </td>
+                                <td class="bg-light-gray">
 
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="align-middle">12.00 - 12.45pm</td>
-                            <td>
-                                <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Funky Pump</span>
-                                <div class="margin-10px-top font-size14">Studio A</div>
-                                <div class="font-size13 text-light-gray">Lisa Watkins</div>
-                            </td>
-                            <td class="bg-light-gray">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="align-middle">12.00 - 12.45pm</td>
+                                <td>
+                                    <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Funky Pump</span>
+                                    <div class="margin-10px-top font-size14">Studio A</div>
+                                    <div class="font-size13 text-light-gray">Lisa Watkins</div>
+                                </td>
+                                <td class="bg-light-gray">
 
-                            </td>
-                            <td>
-                                <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Funky Pump</span>
-                                <div class="margin-10px-top font-size14">Studio A</div>
-                                <div class="font-size13 text-light-gray">Lisa Watkins</div>
-                            </td>
-                            <td class="bg-light-gray">
+                                </td>
+                                <td>
+                                    <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Funky Pump</span>
+                                    <div class="margin-10px-top font-size14">Studio A</div>
+                                    <div class="font-size13 text-light-gray">Lisa Watkins</div>
+                                </td>
+                                <td class="bg-light-gray">
 
-                            </td>
-                            <td>
-                                <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Funky Pump</span>
-                                <div class="margin-10px-top font-size14">Studio A</div>
-                                <div class="font-size13 text-light-gray">Lisa Watkins</div>
-                            </td>
-                            <td class="bg-light-gray">
+                                </td>
+                                <td>
+                                    <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Funky Pump</span>
+                                    <div class="margin-10px-top font-size14">Studio A</div>
+                                    <div class="font-size13 text-light-gray">Lisa Watkins</div>
+                                </td>
+                                <td class="bg-light-gray">
 
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="align-middle">13.00 - 13.45pm</td>
-                            <td>
-                                <span class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Zumba</span>
-                                <div class="margin-10px-top font-size14">Studio A</div>
-                                <div class="font-size13 text-light-gray">Janice Stuart</div>
-                            </td>
-                            <td class="bg-light-gray">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="align-middle">13.00 - 13.45pm</td>
+                                <td>
+                                    <span class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Zumba</span>
+                                    <div class="margin-10px-top font-size14">Studio A</div>
+                                    <div class="font-size13 text-light-gray">Janice Stuart</div>
+                                </td>
+                                <td class="bg-light-gray">
 
-                            </td>  
-                            <td>
-                                <span class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Zumba</span>
-                                <div class="margin-10px-top font-size14">Studio A</div>
-                                <div class="font-size13 text-light-gray">Janice Stuart</div>
-                            </td>
-                            <td class="bg-light-gray">
+                                </td>  
+                                <td>
+                                    <span class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Zumba</span>
+                                    <div class="margin-10px-top font-size14">Studio A</div>
+                                    <div class="font-size13 text-light-gray">Janice Stuart</div>
+                                </td>
+                                <td class="bg-light-gray">
 
-                            </td>
-                            <td>
-                                <span class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Zumba</span>
-                                <div class="margin-10px-top font-size14">Studio A</div>
-                                <div class="font-size13 text-light-gray">Janice Stuart</div>
-                            </td>
-                            <td class="bg-light-gray">
+                                </td>
+                                <td>
+                                    <span class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Zumba</span>
+                                    <div class="margin-10px-top font-size14">Studio A</div>
+                                    <div class="font-size13 text-light-gray">Janice Stuart</div>
+                                </td>
+                                <td class="bg-light-gray">
 
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="align-middle">14.00 - 14.45pm</td>
-                            <td>
-                                <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">H.I.I.T</span>
-                                <div class="margin-10px-top font-size14">Gym</div>
-                                <div class="font-size13 text-light-gray">Jo Harman</div>
-                            </td>
-                            <td class="bg-light-gray">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="align-middle">14.00 - 14.45pm</td>
+                                <td>
+                                    <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">H.I.I.T</span>
+                                    <div class="margin-10px-top font-size14">Gym</div>
+                                    <div class="font-size13 text-light-gray">Jo Harman</div>
+                                </td>
+                                <td class="bg-light-gray">
 
-                            </td>
-                            <td>
-                                <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">H.I.I.T</span>
-                                <div class="margin-10px-top font-size14">Gym</div>
-                                <div class="font-size13 text-light-gray">Jo Harman</div>
-                            </td>
-                            <td class="bg-light-gray">
+                                </td>
+                                <td>
+                                    <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">H.I.I.T</span>
+                                    <div class="margin-10px-top font-size14">Gym</div>
+                                    <div class="font-size13 text-light-gray">Jo Harman</div>
+                                </td>
+                                <td class="bg-light-gray">
 
-                            </td>
-                            <td>
-                                <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">H.I.I.T</span>
-                                <div class="margin-10px-top font-size14">Gym</div>
-                                <div class="font-size13 text-light-gray">Jo Harman</div>
-                            </td>
-                            <td>
-                                <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">S/Defence</span>
-                                <div class="margin-10px-top font-size14">Gym</div>
-                                <div class="font-size13 text-light-gray">Donna Smith</div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="align-middle">15.00 - 15.45pm</td>
-                            <td>
-                                <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Circuits</span>
-                                <div class="margin-10px-top font-size14">Gym</div>
-                                <div class="font-size13 text-light-gray">Sally French</div>
-                            </td>
-                            <td>
-                                <span class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Spin Cycle</span>
-                                <div class="margin-10px-top font-size14">Cycle Studio</div>
-                                <div class="font-size13 text-light-gray">Amy Rees</div>
-                            </td>
-                            <td>
-                                <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Circuits</span>
-                                <div class="margin-10px-top font-size14">Gym</div>
-                                <div class="font-size13 text-light-gray">Sally French</div>
-                            </td>
-                            <td>
-                                <span class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Spin Cycle</span>
-                                <div class="margin-10px-top font-size14">Cycle Studio</div>
-                                <div class="font-size13 text-light-gray">Amy Rees</div>
-                            </td>
-                            <td>
-                                <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Circuits</span>
-                                <div class="margin-10px-top font-size14">Gym</div>
-                                <div class="font-size13 text-light-gray">Sally French</div>
-                            </td>
-                            <td>
-                                <span class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">H.I.I.T</span>
-                                <div class="margin-10px-top font-size14">Gym</div>
-                                <div class="font-size13 text-light-gray">Jo Harman</div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="align-middle">16.00 - 16.45pm</td>
-                            <td>
-                                <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Leg Bums Tums</span>
-                                <div class="margin-10px-top font-size14">Studio A</div>
-                                <div class="font-size13 text-light-gray">Jenna Davies</div>
-                            </td>
-                            <td>
-                                <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Circuits</span>
-                                <div class="margin-10px-top font-size14">Gym</div>
-                                <div class="font-size13 text-light-gray">Sally French</div>
-                            </td>
-                            <td>
-                                <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Leg Bums Tums</span>
-                                <div class="margin-10px-top font-size14">Studio A</div>
-                                <div class="font-size13 text-light-gray">Jenna Davies</div>
-                            </td>
-                            <td>
-                                <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Circuits</span>
-                                <div class="margin-10px-top font-size14">Gym</div>
-                                <div class="font-size13 text-light-gray">Sally French</div>
-                            </td>
-                            <td>
-                                <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Leg Bums Tums</span>
-                                <div class="margin-10px-top font-size14">Studio A</div>
-                                <div class="font-size13 text-light-gray">Jenna Davies</div>
-                            </td>
-                            <td class="bg-light-gray">
+                                </td>
+                                <td>
+                                    <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">H.I.I.T</span>
+                                    <div class="margin-10px-top font-size14">Gym</div>
+                                    <div class="font-size13 text-light-gray">Jo Harman</div>
+                                </td>
+                                <td>
+                                    <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">S/Defence</span>
+                                    <div class="margin-10px-top font-size14">Gym</div>
+                                    <div class="font-size13 text-light-gray">Donna Smith</div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="align-middle">15.00 - 15.45pm</td>
+                                <td>
+                                    <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Circuits</span>
+                                    <div class="margin-10px-top font-size14">Gym</div>
+                                    <div class="font-size13 text-light-gray">Sally French</div>
+                                </td>
+                                <td>
+                                    <span class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Spin Cycle</span>
+                                    <div class="margin-10px-top font-size14">Cycle Studio</div>
+                                    <div class="font-size13 text-light-gray">Amy Rees</div>
+                                </td>
+                                <td>
+                                    <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Circuits</span>
+                                    <div class="margin-10px-top font-size14">Gym</div>
+                                    <div class="font-size13 text-light-gray">Sally French</div>
+                                </td>
+                                <td>
+                                    <span class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Spin Cycle</span>
+                                    <div class="margin-10px-top font-size14">Cycle Studio</div>
+                                    <div class="font-size13 text-light-gray">Amy Rees</div>
+                                </td>
+                                <td>
+                                    <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Circuits</span>
+                                    <div class="margin-10px-top font-size14">Gym</div>
+                                    <div class="font-size13 text-light-gray">Sally French</div>
+                                </td>
+                                <td>
+                                    <span class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">H.I.I.T</span>
+                                    <div class="margin-10px-top font-size14">Gym</div>
+                                    <div class="font-size13 text-light-gray">Jo Harman</div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="align-middle">16.00 - 16.45pm</td>
+                                <td>
+                                    <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Leg Bums Tums</span>
+                                    <div class="margin-10px-top font-size14">Studio A</div>
+                                    <div class="font-size13 text-light-gray">Jenna Davies</div>
+                                </td>
+                                <td>
+                                    <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Circuits</span>
+                                    <div class="margin-10px-top font-size14">Gym</div>
+                                    <div class="font-size13 text-light-gray">Sally French</div>
+                                </td>
+                                <td>
+                                    <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Leg Bums Tums</span>
+                                    <div class="margin-10px-top font-size14">Studio A</div>
+                                    <div class="font-size13 text-light-gray">Jenna Davies</div>
+                                </td>
+                                <td>
+                                    <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Circuits</span>
+                                    <div class="margin-10px-top font-size14">Gym</div>
+                                    <div class="font-size13 text-light-gray">Sally French</div>
+                                </td>
+                                <td>
+                                    <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Leg Bums Tums</span>
+                                    <div class="margin-10px-top font-size14">Studio A</div>
+                                    <div class="font-size13 text-light-gray">Jenna Davies</div>
+                                </td>
+                                <td class="bg-light-gray">
 
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="align-middle">17.00 - 17.45pm</td>
-                            <td>
-                                <span class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Funky Pump</span>
-                                <div class="margin-10px-top font-size14">Studio A</div>
-                                <div class="font-size13 text-light-gray">Lisa Watkins</div>
-                            </td>
-                            <td>
-                                <span class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13">Yoga</span>
-                                <div class="margin-10px-top font-size14">Studio A</div>
-                                <div class="font-size13 text-light-gray">Cha Evans</div>
-                            </td>
-                            <td>
-                                <span class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Funky Pump</span>
-                                <div class="margin-10px-top font-size14">Studio A</div>
-                                <div class="font-size13 text-light-gray">Lisa Watkins</div>
-                            </td>
-                            <td>
-                                <span class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13">Yoga</span>
-                                <div class="margin-10px-top font-size14">Studio A</div>
-                                <div class="font-size13 text-light-gray">Cha Evans</div>
-                            </td>
-                            <td>
-                                <span class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Funky Pump</span>
-                                <div class="margin-10px-top font-size14">Studio A</div>
-                                <div class="font-size13 text-light-gray">Lisa Watkins</div>
-                            </td>
-                            <td class="bg-light-gray">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="align-middle">17.00 - 17.45pm</td>
+                                <td>
+                                    <span class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Funky Pump</span>
+                                    <div class="margin-10px-top font-size14">Studio A</div>
+                                    <div class="font-size13 text-light-gray">Lisa Watkins</div>
+                                </td>
+                                <td>
+                                    <span class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13">Yoga</span>
+                                    <div class="margin-10px-top font-size14">Studio A</div>
+                                    <div class="font-size13 text-light-gray">Cha Evans</div>
+                                </td>
+                                <td>
+                                    <span class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Funky Pump</span>
+                                    <div class="margin-10px-top font-size14">Studio A</div>
+                                    <div class="font-size13 text-light-gray">Lisa Watkins</div>
+                                </td>
+                                <td>
+                                    <span class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13">Yoga</span>
+                                    <div class="margin-10px-top font-size14">Studio A</div>
+                                    <div class="font-size13 text-light-gray">Cha Evans</div>
+                                </td>
+                                <td>
+                                    <span class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Funky Pump</span>
+                                    <div class="margin-10px-top font-size14">Studio A</div>
+                                    <div class="font-size13 text-light-gray">Lisa Watkins</div>
+                                </td>
+                                <td class="bg-light-gray">
 
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="align-middle">18.00 - 18.45pm</td>
-                            <td>
-                                <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13">Bootcamp</span>
-                                <div class="margin-10px-top font-size14">Outdoor Arena</div>
-                                <div class="font-size13 text-light-gray">Ivana Wong</div>
-                            </td>
-                            <td>
-                                <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13">Bootcamp</span>
-                                <div class="margin-10px-top font-size14">Outdoor Arena</div>
-                                <div class="font-size13 text-light-gray">Ivana Wong</div>
-                            </td>
-                            <td>
-                                <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13">Bootcamp</span>
-                                <div class="margin-10px-top font-size14">Outdoor Arena</div>
-                                <div class="font-size13 text-light-gray">Ivana Wong</div>
-                            </td>
-                            <td>
-                                <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13">Bootcamp</span>
-                                <div class="margin-10px-top font-size14">Outdoor Arena</div>
-                                <div class="font-size13 text-light-gray">Ivana Wong</div>
-                            </td>
-                            <td>
-                                <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13">Bootcamp</span>
-                                <div class="margin-10px-top font-size14">Outdoor Arena</div>
-                                <div class="font-size13 text-light-gray">Ivana Wong</div>
-                            </td>
-                            <td>
-                                <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13">Bootcamp</span>
-                                <div class="margin-10px-top font-size14">Outdoor Arena</div>
-                                <div class="font-size13 text-light-gray">Ivana Wong</div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="align-middle">19.00 - 20.00pm</td>
-                            <td>
-                                <span class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Kickboxing</span>
-                                <div class="margin-10px-top font-size14">Studio B</div>
-                                <div class="font-size13 text-light-gray">Anna Thorn</div>
-                            </td>
-                            <td>
-                                <span class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Spin Cycle</span>
-                                <div class="margin-10px-top font-size14">Cycle Studio</div>
-                                <div class="font-size13 text-light-gray">Amy Rees</div>
-                            </td>
-                            <td>
-                                <span class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Kickboxing</span>
-                                <div class="margin-10px-top font-size14">Studio B</div>
-                                <div class="font-size13 text-light-gray">Anna Thorn</div>
-                            </td>
-                            <td>
-                                <span class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Spin Cycle</span>
-                                <div class="margin-10px-top font-size14">Cycle Studio</div>
-                                <div class="font-size13 text-light-gray">Amy Rees</div>
-                            </td>
-                            <td>
-                                <span class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Kickboxing</span>
-                                <div class="margin-10px-top font-size14">Studio B</div>
-                                <div class="font-size13 text-light-gray">Anna Thorn</div>
-                            </td>
-                            <td class="bg-light-gray">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="align-middle">18.00 - 18.45pm</td>
+                                <td>
+                                    <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13">Bootcamp</span>
+                                    <div class="margin-10px-top font-size14">Outdoor Arena</div>
+                                    <div class="font-size13 text-light-gray">Ivana Wong</div>
+                                </td>
+                                <td>
+                                    <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13">Bootcamp</span>
+                                    <div class="margin-10px-top font-size14">Outdoor Arena</div>
+                                    <div class="font-size13 text-light-gray">Ivana Wong</div>
+                                </td>
+                                <td>
+                                    <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13">Bootcamp</span>
+                                    <div class="margin-10px-top font-size14">Outdoor Arena</div>
+                                    <div class="font-size13 text-light-gray">Ivana Wong</div>
+                                </td>
+                                <td>
+                                    <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13">Bootcamp</span>
+                                    <div class="margin-10px-top font-size14">Outdoor Arena</div>
+                                    <div class="font-size13 text-light-gray">Ivana Wong</div>
+                                </td>
+                                <td>
+                                    <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13">Bootcamp</span>
+                                    <div class="margin-10px-top font-size14">Outdoor Arena</div>
+                                    <div class="font-size13 text-light-gray">Ivana Wong</div>
+                                </td>
+                                <td>
+                                    <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13">Bootcamp</span>
+                                    <div class="margin-10px-top font-size14">Outdoor Arena</div>
+                                    <div class="font-size13 text-light-gray">Ivana Wong</div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="align-middle">19.00 - 20.00pm</td>
+                                <td>
+                                    <span class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Kickboxing</span>
+                                    <div class="margin-10px-top font-size14">Studio B</div>
+                                    <div class="font-size13 text-light-gray">Anna Thorn</div>
+                                </td>
+                                <td>
+                                    <span class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Spin Cycle</span>
+                                    <div class="margin-10px-top font-size14">Cycle Studio</div>
+                                    <div class="font-size13 text-light-gray">Amy Rees</div>
+                                </td>
+                                <td>
+                                    <span class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Kickboxing</span>
+                                    <div class="margin-10px-top font-size14">Studio B</div>
+                                    <div class="font-size13 text-light-gray">Anna Thorn</div>
+                                </td>
+                                <td>
+                                    <span class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Spin Cycle</span>
+                                    <div class="margin-10px-top font-size14">Cycle Studio</div>
+                                    <div class="font-size13 text-light-gray">Amy Rees</div>
+                                </td>
+                                <td>
+                                    <span class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Kickboxing</span>
+                                    <div class="margin-10px-top font-size14">Studio B</div>
+                                    <div class="font-size13 text-light-gray">Anna Thorn</div>
+                                </td>
+                                <td class="bg-light-gray">
 
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="align-middle">20.00 - 21.00pm</td>
-                            <td>
-                                <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">H.I.I.T</span>
-                                <div class="margin-10px-top font-size14">Gym</div>
-                                <div class="font-size13 text-light-gray">Beth Yeo</div>
-                            </td>
-                            <td>
-                                <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Circuits</span>
-                                <div class="margin-10px-top font-size14">Gym</div>
-                                <div class="font-size13 text-light-gray">Sally French</div>
-                            </td>
-                            <td>
-                                <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">H.I.I.T</span>
-                                <div class="margin-10px-top font-size14">Gym</div>
-                                <div class="font-size13 text-light-gray">Beth Yeo</div>
-                            </td>
-                            <td>
-                                <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Circuits</span>
-                                <div class="margin-10px-top font-size14">Gym</div>
-                                <div class="font-size13 text-light-gray">Sally French</div>
-                            </td>
-                            <td>
-                                <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">H.I.I.T</span>
-                                <div class="margin-10px-top font-size14">Gym</div>
-                                <div class="font-size13 text-light-gray">Beth Yeo</div>
-                            </td>
-                            <td class="bg-light-gray">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="align-middle">20.00 - 21.00pm</td>
+                                <td>
+                                    <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">H.I.I.T</span>
+                                    <div class="margin-10px-top font-size14">Gym</div>
+                                    <div class="font-size13 text-light-gray">Beth Yeo</div>
+                                </td>
+                                <td>
+                                    <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Circuits</span>
+                                    <div class="margin-10px-top font-size14">Gym</div>
+                                    <div class="font-size13 text-light-gray">Sally French</div>
+                                </td>
+                                <td>
+                                    <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">H.I.I.T</span>
+                                    <div class="margin-10px-top font-size14">Gym</div>
+                                    <div class="font-size13 text-light-gray">Beth Yeo</div>
+                                </td>
+                                <td>
+                                    <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Circuits</span>
+                                    <div class="margin-10px-top font-size14">Gym</div>
+                                    <div class="font-size13 text-light-gray">Sally French</div>
+                                </td>
+                                <td>
+                                    <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">H.I.I.T</span>
+                                    <div class="margin-10px-top font-size14">Gym</div>
+                                    <div class="font-size13 text-light-gray">Beth Yeo</div>
+                                </td>
+                                <td class="bg-light-gray">
 
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
-        </div>
-</body>
-  <!-- Footer -->
-        <!--Credit:- code for testimonials from https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/b51f7b8b815c4bcd9979d2281b6d97a9/?child=first edited to fit project   -->
+        </body>
+        <!-- Footer -->
+                
         <footer class="container-footer">
             <div id="footer-details" >
                 <div class="row">                
-                        <div class="col-sm-8">
+                    <div class="col-sm-8">
                             <h5 class="uppercase general-sub">Let's Get Social!</h5>
                             <ul class="list-inline social-links">
                                 <li class="list-inline-item">
@@ -712,7 +652,7 @@
                                         <span class="sr-only">YouTube</span>
                                     </a>
                                 </li>
-                                 <li class="list-inline-item">
+                                <li class="list-inline-item">
                                     <a target="_blank" href="#">
                                         <i class="fab fa-linkedin-in" aria-hidden="true"></i>
                                         <span class="sr-only">linked-in</span>
@@ -726,10 +666,11 @@
                             <input type="email" id="inputemail" class="form-control" aria-describedby="emailHelpBlock" placeholder="Enter You Email">
                             </p>
                         </div>
-                </div> 
+                    </div>
+                 </div>
             </div>
         </footer>
-        <!-- Footer -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+                <!-- Footer -->
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
     </body>
 </html>
