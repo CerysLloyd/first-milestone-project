@@ -107,7 +107,7 @@ body {
     padding-top: 20;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 576px) {
 .classes-container {
     padding-top: 10px;
     padding-left: 80px;
@@ -117,6 +117,18 @@ body {
     margin-right: 0;
 }
 }
+
+@media only screen and (min-width: 768px) {
+    .classes-container {
+        padding-top: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        max-width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    }
+
 
 .container-wrapper--purple {
     background-color: #401d35;
