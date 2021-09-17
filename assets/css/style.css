@@ -16,6 +16,14 @@ body {
     margin-bottom: 30%;
 }
 
+#footer-details {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
     /* ------------------------------------------------- content containers ----*/
 
 /* code taken from https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/a4b90d17e5c94220a0f83f00ce7fa606/4b3b1b062b01424997c8fd052e177b8e/?child=first*/
@@ -85,6 +93,9 @@ body {
     width: 100%;
 }
 
+.map-container {
+ max-width: 100%;
+}
 
 .testimonials-h2 {
     color:white;
@@ -105,14 +116,11 @@ body {
 .whats-thumbnail {
     width: 100%;
     height: 350px;
-
 }
-
 /* ------------------------------------------------- Nav Bar ----*/
 .navbar {
    background-color: #401d35;
-    
-}
+    }
 }
 #navbarNavDropdown {
     background-color: #401d35;
@@ -251,7 +259,6 @@ footer {
     background-color: #310b25;
     color: #fafafa;
     min-height: 120px;
-    margin: 0;
 }
 
 .social-links {
@@ -408,4 +415,3 @@ margin-right: 25%;
     color: #fff;
     background: #401d35;
 
-   
