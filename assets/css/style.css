@@ -85,8 +85,8 @@ body {
     background-color: #fff;
     border: 1px solid #dee2e6;
     border-radius: .25rem;
-    width: 460px;
-    height: 300px;
+    width: 100%;
+    height: 350px;
 }
 
 .whats-thumbnail {
@@ -298,7 +298,7 @@ margin-right: 25%;
     margin-left: 29%;
 }
 
-/* ------------------------------------------------- Classes timetable ----*/
+/* ------------------------------------------------- Classes page and timetable ----*/
 /*Credit: Css taken from: https://www.bootdey.com/snippets/view/time-table#html and edited for this project ----*/
 body{
     margin-top:20px;
@@ -371,6 +371,9 @@ body{
     border-top: 1px solid #dee2e6;
 }
 
+.class-schedule {
+    margin-left: 80px;
+}
 /* ------------------------------------------------- Contact Us Page ----*/
 
 .contact-us {
