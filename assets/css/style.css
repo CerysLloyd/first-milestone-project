@@ -107,6 +107,7 @@ body {
     padding-top: 20;
 }
 
+@media only screen and (min-width: 768px) {
 .classes-container {
     padding-top: 10px;
     padding-left: 80px;
@@ -114,6 +115,7 @@ body {
     max-width: 100%;
     margin-left: 0;
     margin-right: 0;
+}
 }
 
 .container-wrapper--purple {
