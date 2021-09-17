@@ -214,6 +214,10 @@ body {
     -o-transition: all 0.35s ease-in-out;
 
 }
+.navbar-toggler {
+    color: #fff;
+    size: 90px;
+}
 
 
 
