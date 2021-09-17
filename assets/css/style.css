@@ -17,6 +17,8 @@ body {
     margin-bottom: 30%;
 }
 
+    /* ------------------------------------------------- content containers ----*/
+
 /* code taken from https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/a4b90d17e5c94220a0f83f00ce7fa606/4b3b1b062b01424997c8fd052e177b8e/?child=first*/
 .callout-container {
         height: 600px;
@@ -35,8 +37,6 @@ body {
         position: relative;
     }
 
-    /* ------------------------------------------------- content containers ----*/
-
 .content-container {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -44,9 +44,18 @@ body {
 }
 .reasons-container {
     padding-top: 10px;
+    color: #310b25;
 }
 .grid-container {
     max-width: 100%;
+}
+.whats-container {
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 100%;
+    color:#310b25
+       
 }
 
 .container-wrapper--purple {
@@ -78,6 +87,12 @@ body {
     border-radius: .25rem;
     width: 460px;
     height: 300px;
+}
+
+.whats-thumbnail {
+    width: 100%;
+    height: 350px;
+
 }
 
 /* ------------------------------------------------- Nav Bar ----*/
