@@ -54,6 +54,18 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+#button-addon2 {
+    color: #fff;
+    background-color: #f72585;
+    font-family: Lato, sans-serif;
+    border-color: #f72585;
+}
+
+#button-addon2:hover {
+    background-color: #d20a64;
+    color: white;
+    transition: all 0.35s ease-in-out;
+}
 .form-control { width:50%}
     /* ------------------------------------------------- content containers ----*/
 
