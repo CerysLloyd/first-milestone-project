@@ -2,7 +2,7 @@
 
 body {
     font-family: Lato, sans-serif;
-    color: #777777;
+    color: #401d35;
     }   
 .card-title {
     font-size: 2rem;
@@ -54,7 +54,7 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
 }
-
+.form-control { width:50%}
     /* ------------------------------------------------- content containers ----*/
 
 /* code taken from https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/a4b90d17e5c94220a0f83f00ce7fa606/4b3b1b062b01424997c8fd052e177b8e/?child=first*/
@@ -144,7 +144,7 @@ body {
 }
 .navbar-brand {
     margin-top: 0px;
-    background-color: #401d35;
+    background-color: #310b25;
     font-family: lato, sans-serif;
     font-weight: 900;
     color: #fff;
@@ -211,7 +211,6 @@ body {
 .btn--pink {
     color: #fff;
     background-color: #f72585;
-    border-color:#f72585 ;
 }
 .btn--class {
     margin-left: 0px;
@@ -221,7 +220,6 @@ body {
 .btn--pink:focus,
 .btn--pink:active:focus {
     background-color: #d20a64;
-    border-color: #d20a64;
     color: white;
     transition: all 0.35s ease-in-out;
 }
