@@ -3,8 +3,7 @@
 body {
     font-family: Lato, sans-serif;
     color: #777777;
-    } 
-    
+    }   
 .card-title {
     font-size: 2rem;
 }
@@ -15,46 +14,39 @@ body {
     color:#401d35;
     font-size: 4rem;
 }
-
 #reasons {
     text-align: center;
     font-family: Lato, sans-serif;
     color:#401d35;
     font-size: 4rem;
 }
-
 #whats {
     text-align: center;
     font-family: Lato, sans-serif;
     color:#401d35;
     font-size: 4rem;
 }
-
 #classes{
     text-align: center;
     font-family: Lato, sans-serif;
     color:#401d35;
     font-size: 4rem;
 }
-
 #contact-head {
     text-align: center;
     font-family: Lato, sans-serif;
     color:#401d35;
     font-size: 4rem;
 }
-
 #timetable-head {
     text-align: center;
     font-family: Lato, sans-serif;
     color:#401d35;
     font-size: 4rem;
 }
-
 #contact-us {
     margin-bottom: 30%;
 }
-
 #footer-details {
     margin-left: 20px;
     margin-right: 20px;
@@ -82,12 +74,9 @@ body {
     
         position: relative;
 }
-
-
 .content-container {
     padding-top: 40px;
     padding-bottom: 40px;
-
 }
 .reasons-container {
     padding-top: 10px;
@@ -115,31 +104,26 @@ body {
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 20;
 }
 .contact-container {
     padding-top: 0;
-    
 }
 .container-footer {
     width: 100%;
 }
-
 .map-container {
  max-width: 100%;
 }
-
 .testimonials-h2 {
     color:white;
     text-transform: uppercase;
 }
 
-
 /* ------------------------------------------------- Nav Bar ----*/
 .navbar {
    background-color: #401d35;
     }
-}
 #navbarNavDropdown {
     background-color: #401d35;
     color: #fff;
@@ -149,9 +133,7 @@ body {
     font-family: lato, sans-serif;
     color: #777777;
     background-color: #401d35;
-        
 }
-
 .nav-link {
     float: inline-end;
     color:#fff
@@ -159,62 +141,45 @@ body {
 .nav-link:hover {
     color:  #f72585;
     transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-
 }
-
 .navbar-brand {
     margin-top: 0px;
     background-color: #401d35;
     font-family: lato, sans-serif;
     font-weight: 900;
     color: #fff;
-    
 }
 
 .navbar-brand:hover {
     color:  #f72585;
     transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-
 }
 .navbar-toggler {
     color: #fff;
 }
 
-
-
-
 /* ------------------------------------------------- jumbotron & Home Page----*/
 
 .header-logo {
     box-align: center;
-    margin-top: 30px;
+    padding-top: 30px;
     
 }
-
 .jumbotron-header {
     color: #fff;
     font-weight: bold;
     margin-bottom: 30px;
     margin-top:0px;
 }
-
 .jumbotron .lead {
     color: #fff;
     margin: 25px 0;
 }
-
 .jumbotron .lead-two {
     color: #fff;
     font-weight: bold;
     margin: 25px 0;
 }
-
 .jumbotron small {
     font-size: 70%;
     font-style: italic;
@@ -222,26 +187,21 @@ body {
 }
 .jumbotron {
     background-color:transparent;
-    }
-
- .opaque-overlay {
+}
+.opaque-overlay {
         position: absolute;
         top: 0;
         left: 0;
         height: 100%;
         width: 100%;
         background-color: rgba(0, 0, 0, 0.5);
-    }
-
-
-
+}
 /* ------------------------------------------------- Testimonials ----*/
 
 .rounded-circle {
     margin-left: 25%;
     margin-bottom: 5%;
 }
-
 
 /* ------------------------------------------------- buttons ----*/
 
@@ -250,18 +210,14 @@ body {
     border-radius: 23px;
     width: 160px;
 }
-
 .btn--pink {
     color: #fff;
     background-color: #f72585;
     border-color:#f72585 ;
 }
-
 .btn--class {
     margin-left: 0px;
-
 }
-
 .btn--pink:hover,
 .btn--pink:active,
 .btn--pink:focus,
@@ -270,9 +226,6 @@ body {
     border-color: #d20a64;
     color: white;
     transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 /* ------------------------------------------------- Footer ----*/
@@ -281,11 +234,9 @@ footer {
     color: #fafafa;
     min-height: 120px;
 }
-
 .social-links {
     padding-bottom: 15px;
 }
-
 .social-links li a i {
     width: 32px;
     height: 32px;
@@ -301,7 +252,6 @@ footer {
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
-
 .social-links li a i:hover {
     background: #f72585;
 }
@@ -321,23 +271,18 @@ footer {
 .table-bordered td, .table-bordered th {
     border: 1px solid #dee2e6;
 }
-
 .bg-purple.box-shadow {
     box-shadow: 0px 5px 0px 0px#401d35
 }
-
 .bg-pink.box-shadow {
     box-shadow: 0px 5px 0px 0px #f72585
 }
-
 .bg-purple {
     background-color: #401d35
 }
-
 .bg-pink {
     background-color:  #f72585
 }
-
 .padding-15px-lr {
     padding-left: 15px;
     padding-right: 15px;
@@ -352,21 +297,18 @@ footer {
 .border-radius-5 {
     border-radius: 5px;
 }
-
 .margin-10px-top {
     margin-top: 10px;
 }
 .font-size14 {
     font-size: 14px;
 }
-
 .text-light-gray {
     color: #d6d5d5;
 }
 .font-size13 {
     font-size: 13px;
 }
-
 .table-bordered td, .table-bordered th {
     border: 1px solid #dee2e6;
 }
@@ -375,10 +317,10 @@ footer {
     vertical-align: top;
     border-top: 1px solid #dee2e6;
 }
-
 .class-schedule {
     margin-left: 80px;
 }
+
 /* ------------------------------------------------- Contact Us Page ----*/
 
 .contact-us {
@@ -386,7 +328,6 @@ footer {
     font-size: 20px;
     padding-bottom: 20px;
 }
-
 .contact-us a i {
     width: 45px;
     height: 45px;
