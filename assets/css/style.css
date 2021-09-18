@@ -93,7 +93,7 @@ body {
     color:#310b25
 }
 .testimonials-container {
-    padding-top: 20;
+    padding-top: 20px;
 }
 .container-wrapper--purple {
     background-color: #401d35;
@@ -104,7 +104,7 @@ body {
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
-    margin-bottom: 20;
+    margin-bottom: 20px;
 }
 .contact-container {
     padding-top: 0;
@@ -161,8 +161,7 @@ body {
 /* ------------------------------------------------- jumbotron & Home Page----*/
 
 .header-logo {
-    box-align: center;
-    padding-top: 30px;
+    margin-top: 30px;
     
 }
 .jumbotron-header {
