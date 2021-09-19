@@ -100,13 +100,14 @@ The user will have interaction in the form of links and buttons with active hove
 
 To create the wireframes I used Balsamiq Wireframes.
 
+Viewable pdf here
 ![Wireframes](assets/md_images/wireframes.pdf)
 
 ## Surface
 
 ### Colors
 
-Main colours used in project, in conjunction with the businesses brand colours provided by the logo:
+Main colours used in this project, in conjunction with the businesses brand colours provided by the logo:
 * background color: #401d35
 * font color: #310b25 or #fff
 * testimonial colour:#310b25
@@ -311,6 +312,21 @@ I would like to check the class timetable to plan my workout schedule ahead of t
 ---
 ## Issues found during site development
 
-* #### Horizontal scrolling bar on the bottom of the screen.
+* #### Navbar Alignment.
 ![testing_issue_1](assets/md_images/navbar-alignment.png)
+
+I used [bootstrap](https://getbootstrap.com/docs/5.0/components/navbar/) to create the navbar and then customised the css to apply the desired look. However I could not get the text to sit to the right hand side of the page.
+Using mozzilla developer tools I applied *margin-right* elements and *padding* but this caused problems with the responsiveness in smaller screens. I tried *justify-content* elements and they didn't work either. 
+
+>I read bootstraps documentation on [Spacing](https://getbootstrap.com/docs/5.0/utilities/spacing/) and [flex]{https://getbootstrap.com/docs/5.0/utilities/flex/} but didn't find the answer.
+
+>I watched a you-tube tutorial by [RTECH-INFO]{https://www.youtube.com/watch?v=ozCItmwbgvc} which outline the *me-auto* and *ms-auto* functions and changed the code within github to follow these new rules.
+
+![testing_issue_1_Code](assets/md_images/navbar-code.png) code before applying the new rule.
+![testing_issue-1_newcode](assets/md_images/navbar-code2.png) code after applying the new rule.
+
+> After gaining more experience with bootstrap I also altered the code snippet that bootstrap provided; removing the search bar. I applied custom css to the navbar for styling, using the Mozzilla developer to ensure that all code was responsive. Below is an image of the final Navbar.
+
+![testing_issue_1_resolved](assets/md_images/finalnav.png)
+
 
