@@ -331,13 +331,13 @@ Code after applying the new rule.
 
 ![testing_issue_1_resolved](assets/md_images/finalnav.png)
 
-* #### Navbar Alignment.
+* #### Image and text display.
 ![testing_issue_2](assets/md_images/col-row-layout.png)
 
 I orignially used the same style template as the [Code Institute Love Running Project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2020_Q2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/6eb8cfc87bfd434a87861a844e00b655/) with the *col* and *row* system to try and replicate the writing in line with the image for the classes pages and the home page of my project. 
 
 It lead to a whole host of responsive design issues when trying to float the *cols* left and right. 
-![testing_issue_2](assets/md_images/col-row-layout.png)
+![testing_issue_2](assets/md_images/col-row-layout2.png)
 
 > I watched a tutorial to better understand the relationship between *rows and cols* [Acedemind](https://www.youtube.com/watch?v=qmPmwdshCMw)
 
