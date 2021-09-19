@@ -51,6 +51,7 @@ body {
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 10px;
+    margin-top: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -66,7 +67,6 @@ body {
     color: white;
     transition: all 0.35s ease-in-out;
 }
-.form-control { width:50%}
     /* ------------------------------------------------- content containers ----*/
 
 /* code taken from https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/a4b90d17e5c94220a0f83f00ce7fa606/4b3b1b062b01424997c8fd052e177b8e/?child=first*/
@@ -350,4 +350,8 @@ footer {
     text-align: center;
     color: #fff;
     background: #401d35;
+}
 
+.form-group {
+    margin-bottom: 20px;
+}
