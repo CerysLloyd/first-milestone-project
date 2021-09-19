@@ -3,7 +3,7 @@
 
 ## User-Centric Frontend Development Milestone Project 1.
 
-![Mockup](md_images/mockup.png) < NEED TO CHANGE!!>
+![Mockup](assets/md_images/themockup.png)
 
 Website presents an informative platform for users to find content relating to the fictional womens only gym called "Women Only Workouts". 
 
@@ -315,18 +315,190 @@ I would like to check the class timetable to plan my workout schedule ahead of t
 * #### Navbar Alignment.
 ![testing_issue_1](assets/md_images/navbar-alignment.png)
 
-I used [bootstrap](https://getbootstrap.com/docs/5.0/components/navbar/) to create the navbar and then customised the css to apply the desired look. However I could not get the text to sit to the right hand side of the page.
+I used [bootstrap](https://getbootstrap.com/docs/5.0/components/navbar/#toggler) to create the navbar and then customised the css to apply the desired look. However I could not get the text to sit to the right hand side of the page.
 Using mozzilla developer tools I applied *margin-right* elements and *padding* but this caused problems with the responsiveness in smaller screens. I tried *justify-content* elements and they didn't work either. 
 
->I read bootstraps documentation on [Spacing](https://getbootstrap.com/docs/5.0/utilities/spacing/) and [flex]{https://getbootstrap.com/docs/5.0/utilities/flex/} but didn't find the answer.
+>I read bootstraps documentation on [Spacing](https://getbootstrap.com/docs/5.0/utilities/spacing/) and [flex](https://getbootstrap.com/docs/5.0/utilities/flex/) but didn't find the answer.
 
->I watched a you-tube tutorial by [RTECH-INFO]{https://www.youtube.com/watch?v=ozCItmwbgvc} which outline the *me-auto* and *ms-auto* functions and changed the code within github to follow these new rules.
+>I watched a you-tube tutorial by [RTECH-INFO](https://www.youtube.com/watch?v=ozCItmwbgvc) which outline the *me-auto* and *ms-auto* functions and changed the code within github to follow these new rules.
 
-![testing_issue_1_Code](assets/md_images/navbar-code.png) code before applying the new rule.
-![testing_issue-1_newcode](assets/md_images/navbar-code2.png) code after applying the new rule.
+Code before applying the new rule.
+![testing_issue_1_Code](assets/md_images/navbar-code.png) 
+Code after applying the new rule.
+![testing_issue-1_newcode](assets/md_images/navbar-code2.png) 
 
 > After gaining more experience with bootstrap I also altered the code snippet that bootstrap provided; removing the search bar. I applied custom css to the navbar for styling, using the Mozzilla developer to ensure that all code was responsive. Below is an image of the final Navbar.
 
 ![testing_issue_1_resolved](assets/md_images/finalnav.png)
+
+* #### Navbar Alignment.
+![testing_issue_2](assets/md_images/col-row-layout.png)
+
+I orignially used the same style template as the [Code Institute Love Running Project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2020_Q2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/6eb8cfc87bfd434a87861a844e00b655/) with the *col* and *row* system to try and replicate the writing in line with the image for the classes pages and the home page of my project. 
+
+It lead to a whole host of responsive design issues when trying to float the *cols* left and right. 
+![testing_issue_2](assets/md_images/col-row-layout.png)
+
+> I watched a tutorial to better understand the relationship between *rows and cols* [Acedemind](https://www.youtube.com/watch?v=qmPmwdshCMw)
+
+> I rewatched Code Institute videos regarding *div and span* rules I also read the [containers information](https://getbootstrap.com/docs/5.0/layout/containers/#how-they-work) available at Bootstrap, to completley get to grips with the grid system. 
+
+> After gaining more experience with bootstrap I became aware of the [Grid cards](https://getbootstrap.com/docs/4.5/components/card/#grid-cards) and their responsivity built in. I used custom styling using the mozzilla developer to ensure that the code was responsive on all devices. 
+
+![testing_issue_2_resolved](assets/md_images/layout-fixed.png)
+
+* #### Footer Newsletter Sign Up, Button Missing.
+![testing _issue_3](assets/md_images/footerbutton1.png)
+
+I orignally tried to mimic/ adapt the code from the the [Code Institute- Rosie Project](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/b51f7b8b815c4bcd9979d2281b6d97a9/) for the footer as I liked the elements grouping, but the design I was working on didn't really call for the quantity of *cols* used.
+
+>I didn't want to leave the remaining space in the footer blank... usually there would be room here for the contact details, but I have included a contact page in the design. I opted to place a "sign up to our newsletter" email input into this element to encourage new and existing members to sign up for further information from the business.
+
+I added the code from the *navbar search bar* that I had originally installed from [bootstrap](https://getbootstrap.com/docs/5.0/components/navbar/#toggler), and was going to further edit the code to apply to this, but the button didn't appear. 
+
+I then installed a button element that I had used for the Classes page [testing_issue_3](assets/md_images/footerbutton2.png) 
+
+This caused issues with responiveness and didn't look right. 
+
+>I researched other options available for *input and button* options using [bootstrap add ons] (https://getbootstrap.com/docs/5.0/forms/input-group/#button-addons) and that worked. I changed the *col* settings in the footer from *col-sm-8, col-sm-4* to *col-sm-6, col-sm-6* to allow for the button to sit well in the footer.
+
+[testing_issue_3](assets/md_images/footerbutton3.png)
+
+> I customised the css and here is the finished button
+
+[testing_issue_3_resolved] (assets/md_images/footerbutton4.png)
+
+## Performance testing
+
+To test performance I run the  [Lighthouse](https://developers.google.com/web/tools/lighthouse/) developer tool.
+I plan to edit the photos to reduce loading time and increase the performance of the webiste.
+
+[Website Performance](assets/md_images/performance.png)
+[Best Practices](assets/md_images/best-practices.png)
+
+## Code Validation
+ Throughout the project I have used 2 validators to check and validate code
+ 
+ * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to validate CSS
+ * [Nu Html Checker](https://validator.w3.org/) to test HTML
+
+
+[Back to Table of contents](#table-of-contents)
+
+___
+# Deployment
+
+This project will be deployed through Github.
+
+Gitpod was the development tool for writing the code: Git add and Git Commit commited all changes to git.
+The push command in Gitpod was used to save changes in GitHub.
+
+To deploy the project I had to:
+
+* Log in to GitHub and click on repository to deploy ([Repository](https://github.com/CerysLloyd/first-milestone-project))
+* Use the `Settings`button on the command line above the green gitpod button; it has a cog icon.
+* Scroll down the page to the 'GitHub Pages' section, almsot near the bottom of the page.
+* Inside a highlighted bar: Pages settings now has its own dedicated tab! Check it out here!, click the href link.
+* At the top of the page there will be a highlighted href link Your site is published at https://ceryslloyd.github.io/first-milestone-project/
+* click and it opens in a new page. 
+
+
+[Back to Table of contents](#table-of-contents)
+___
+# Credits
+
+
+* To complete this project I used Code Institute student template: [gitpod full template](https://github.com/Code-Institute-Org/gitpod-full-template)
+
+* Ideas and knowledge library:
+
+    * [w3schools.com](https://www.w3schools.com)
+
+    * [css-tricks.com](https://css-tricks.com/)
+
+    * [Understanding row and cols](HTTPS://WWW.YOUTUBE.COM/WATCH?V=QMPMWDSHCMW)
+
+    *
+
+    * [getbootstrap.com/docs](https://getbootstrap.com/)
+        Used for:-
+        * CDN via jsDelivr
+        * Navbar
+        * Jumbotron / this also came from the Code Institute tutorial for Whiskey Drop
+        * Burger Menu
+
+
+### Code
+
+* Timetable: [Timetable](https://www.bootdey.com/snippets/view/time-table#html)
+* Testimonials idea: [Love Running](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/b51f7b8b815c4bcd9979d2281b6d97a9/?child=first )
+* Bootstrap: [Navbar](https://getbootstrap.com/docs/5.1/components/navbar/)
+* Bootstrap: [Burger Bar](https://getbootstrap.com/docs/5.0/components/navbar/#external-content)
+* Bootstrap: [Card Grid](https://getbootstrap.com/docs/5.1/components/card/#grid-cards)
+* Bootstrap: [Footer Button](https://getbootstrap.com/docs/5.0/components/navbar/#toggler)
+* Code Institute: [Jumbotron](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/a4b90d17e5c94220a0f83f00ce7fa606/4b3b1b062b01424997c8fd052e177b8e/?child=first)
+
+
+### Content:
+*  General content: My own creation
+
+### code for the insertion of a map:
+* [Bootsnip](https://bootsnipp.com/snippets/VgVDB)
+
+### Map:
+* [Google maps](https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2481.9141312143433!2d-3.680686883611361!3d51.53313477963932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486e6f482f6c14e9%3A0x1d6f01551dcb61f4!2s4%20Commercial%20St%2C%20Kenfig%20Hill%2C%20Bridgend%20CF33%206DH!5e0!3m2!1sen!2suk!4v1631707601060!5m2!1sen!2suk)
+ 
+### Images:
+
+#### Pexels.com:
+* [boxfit](https://www.pexels.com/photo/strong-plump-black-female-exercising-with-punching-bag-6456170/)
+* [bootcamp]
+* [community](https://www.pexels.com/photo/three-women-kneeling-on-floor-866023/)
+* [confidence](https://www.pexels.com/photo/excited-young-black-sportswoman-showing-biceps-after-boxing-training-6456233/)
+* [core](https://www.pexels.com/photo/three-women-s-doing-exercises-863977/)
+* [empowerment](https://www.pexels.com/photo/young-ethnic-woman-with-fit-ball-sitting-on-floor-while-training-in-modern-gym-3768593/)
+* [ladies-header](https://www.pexels.com/photo/young-slender-female-athletes-giving-high-five-to-each-other-while-training-together-in-sports-club-3768722/)
+* [legsbumsandtums](https://www.pexels.com/photo/group-of-women-doing-exercise-inside-the-building-3775566/)
+* [party](https://www.pexels.com/photo/woman-in-silver-v-neck-long-sleeved-dress-3394310/)
+* [strength](https://www.pexels.com/photo/woman-in-gray-sports-bra-holding-black-dumbbell-3757376/)
+* [warrior](https://www.pexels.com/photo/woman-doing-crossfit-2294400/)
+* [yoga]
+
+* Lauren, Kirsty, Lisha and rainbow run photos are all personal images from my own collection. 
+
+# Screenshots
+
+## Project screenshots
+
+![screenshot1](assets/md_images/screenshot1.png)
+
+![screenshot2](assets/md_images/screenshot2.png)
+
+![screenshot3](assets/md_images/screenshot3.png)
+
+![screenshot4](assets/md_images/Screenshot4.png)
+
+![screenshot5](assets/md_images/screenshot5.png)
+
+![screenshot6](assets/md_images/screenshot6.png)
+
+![screenshot7](assets/md_images/Screenshot7.png)
+
+![screenshot8](assets/md_images/screenshot8.png)
+
+![screenshot9](assets/md_images/screenshot9.png)
+
+![screenshot10](assets/md_images/screenshot10.png)
+
+![screenshot11](assets/md_images/screenshot11.png)
+
+
+
+[Back to Table of contents](#table-of-contents)
+___
+
+
+
+
 
 
