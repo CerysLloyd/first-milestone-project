@@ -402,6 +402,16 @@ To deploy the project I had to:
 * At the top of the page there will be a highlighted href link Your site is published at https://ceryslloyd.github.io/first-milestone-project/
 * click and it opens in a new page. 
 
+To run localy:
+* Log in to GitHub and click on repository to download ([Repository](https://github.com/CerysLloyd/first-milestone-project))
+* select `Code` and click Download the ZIP file.
+* after download you can extract the file and use it in your local environment 
+
+Alternatively you can [Clone](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
+or [Fork](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo)
+this repository ([Repository](https://github.com/CerysLloyd/first-milestone-project)) into your github account.
+
+
 
 [Back to Table of contents](#table-of-contents)
 ___
@@ -417,8 +427,6 @@ ___
     * [css-tricks.com](https://css-tricks.com/)
 
     * [Understanding row and cols](HTTPS://WWW.YOUTUBE.COM/WATCH?V=QMPMWDSHCMW)
-
-    *
 
     * [getbootstrap.com/docs](https://getbootstrap.com/)
         Used for:-
